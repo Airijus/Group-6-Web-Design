@@ -9,7 +9,12 @@
 </head>
 <body>
     <header class="logo-container">
-    <h1>This is the home page</h1>
+
+    <div id="headerLogo">
+        <img id="logo_T" src="onsiteImages/Logo-Transparent.png" alt="MathSpark Logo">
+    </div>
+    <h1 id="headerText_Index"><strong>Welcome to MathSpark!</strong></h1>
+
     </header>
     
     <nav class = "nav">
@@ -21,17 +26,97 @@
             <li><a href="privacy.html">Privacy</a></li>
         </ul>
     </nav>
-	<p>Click this button to make triple T disappear!</p>
-    <div class="hide">
-		<button id = "homeButton" onclick="hideImage()">Click Me!</button>
-	</div>
-	<p>Click this button to bring triple T back to life!</p>
-	<div class="show">
-		<button id = "homeButton" onclick="showImage()">Click Me!</button>
-	</div>
-	<div>
-		<img id="test" src="onsiteImages/testimage.png"></img>
-	</div>
+	<!-- ================= HERO ================= -->
+
+<section class="hero">
+    <h1>WELCOME TO MATHSPARK, YOUR HOME FOR MATHEMATICS EDUCATION</h1>
+    <p>Here at MathSpark, we aim to help all students studying mathematics with learning the content necessary to pass their exams.<br>
+    We aspire to teach anyone who may feel like mathematics is too hard of a subject, and want to make the process as easy as possible!</p>
+    <p>With our learn-to-play system, mathematics has never been more entertaining!</p>
+</section>
+
+<!-- ================= SUBJECT 1 ================= -->
+
+<section class="section">
+    <div class="section-text">
+        <h2>GCSE Mathematics (Ages 13-16)</h2>
+        <p>
+            This is our section for content tailored towards secondary school students
+            taking their GCSE Exams.
+        </p>
+        <p>(More info here)</p>
+        <div class="section-buttons">
+            <button class="primary-btn">Go to subject</button>
+            <button class="secondary-btn">Lesson</button>
+        </div>
+    </div>
+
+    <div class="section-image">
+        <img src="onsiteImages/1Home.jpg" alt="Image of GCSE Students working together">
+    </div>
+</section>
+
+<!-- ================= SUBJECT 2 ================= -->
+
+<section class="section reverse">
+    <div class="section-text">
+        <h2>A-Level Mathematics (Ages 16-18)</h2>
+        <p>
+            This is our section for content tailored towards Sixth Form students 
+            taking their A-Level Exams.
+        </p>
+        <p>(More info here)</p>
+        <div class="section-buttons">
+            <button class="primary-btn">Go to subject</button>
+            <button class="secondary-btn">Lesson</button>
+        </div>
+    </div>
+
+    <div class="section-image">
+        <img id="index_Image2" src="onsiteImages/2Home.jpg" alt="Image of 2 A-Level students working on an equation">
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+    <div class="footer-top">
+
+        <div class="footer-col">
+            <h4>Logo</h4>
+            <p>Address:<br>123 Main Street, City<br>Country</p>
+        </div>
+
+        <div class="footer-col">
+            <h4>Column one</h4>
+            <a href="#">Link one</a>
+            <a href="#">Link two</a>
+            <a href="#">Link three</a>
+            <a href="#">Link four</a>
+        </div>
+
+        <div class="footer-col">
+            <h4>Column two</h4>
+            <a href="#">Link five</a>
+            <a href="#">Link six</a>
+            <a href="#">Link seven</a>
+            <a href="#">Link eight</a>
+        </div>
+
+        <div class="footer-col">
+            <h4>Column three</h4>
+            <a href="#">Link nine</a>
+            <a href="#">Link ten</a>
+            <a href="#">Link eleven</a>
+            <a href="#">Link twelve</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 MathSpark, Property of AKLTD Ltd. All rights reserved.
+    </div>
+</footer>
 </body>
 <script src="script.js"></script>
 </html>
