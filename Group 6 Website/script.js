@@ -1,7 +1,11 @@
-const myButton = document.getElementById("myButton");
-const myDiv = document.getElementById("nav");
 
-myButton.addEventListener("click", event => {
-
-    myDiv.style.display = "none";
-})
+function hideImage()
+{
+    const myImage = document.getElementById("test");
+    myImage.style.display = "none";
+}
+function showImage()
+{
+    const myImage = document.getElementById("test");
+    myImage.style.display = "block";
+}
