@@ -1,3 +1,18 @@
 Websites/pictures/videos used for Indicies lesson - 
 
 https://thirdspacelearning.com/gcse-maths/algebra/laws-of-indices/
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Power in HTML</title>
+</head>
+<body>
+    <p>2<sup>3</sup> = 8</p>
+    <p>E = mc<sup>2</sup></p>
+</body>
+</html>
+
+Output = 2³ = 8
+E = mc²
