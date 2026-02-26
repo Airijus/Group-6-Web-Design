@@ -1,0 +1,7 @@
+WORDSEARCH SITE
+
+LINK: https://wordsearchlabs.com/
+
+[TEST VERSION]
+Name: Test
+Pass: aaa

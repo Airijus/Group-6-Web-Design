@@ -1,0 +1,12 @@
+EDEXCEL SPECIFICATION 
+
+GCSE LINK:
+https://qualifications.pearson.com/content/dam/pdf/GCSE/mathematics/2015/specification-and-sample-assesment/gcse-maths-2015-specification.pdf
+
+PERCENTAGES:
+- define percentage as ‘number of parts per hundred’
+- interpret percentages and percentage changes as a fraction or a decimal, and interpret these multiplicatively
+- express one quantity as a percentage of another
+- compare two quantities using percentages
+- work with percentages greater than 100%
+- solve problems involving percentage change, including percentage increase/decrease and original value problems, and simple interest including in financial mathematics
