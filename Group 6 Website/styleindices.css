@@ -1,0 +1,54 @@
+main {
+    display: block;
+}
+
+
+/* Text box styling */
+.lawsofindicestextbox {
+    max-width: 800px;              /* Limit width for readability */
+    padding: 20px;                 /* Space inside the box */
+    border: 2px solid #7678ed;     /* Coloured border */
+    border-radius: 8px;            /* Rounded corners */
+    background-color: #f9f9f9;     /* Light background */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+    margin: 20px auto;             /* Center horizontally */
+    font-family: Arial, sans-serif;
+    font-size: larger;             /* Larger font size */
+}
+
+
+.lessonContent {
+    max-width: 420px;              
+    margin: 20px auto;             
+    font-family: Arial, sans-serif;
+    font-size: larger;             /* Larger font size */
+}
+
+.WhatAreIndicesTextBox {
+    max-width: 800px;              /* Limit width for readability */
+    padding: 20px;                 /* Space inside the box */
+    border: 2px solid #7678ed;     /* Coloured border */
+    border-radius: 8px;            /* Rounded corners */
+    background-color: #f9f9f9;     /* Light background */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+    margin: 20px auto;             /* Center horizontally */
+    font-family: Arial, sans-serif;
+    font-size: larger;             /* Larger font size */
+}
+
+.TheLawsOfIndicesTextBox {
+    max-width: 800px;              /* Limit width for readability */
+    padding: 20px;                 /* Space inside the box */
+    border: 2px solid #7678ed;     /* Coloured border */
+    border-radius: 8px;            /* Rounded corners */
+    background-color: #f9f9f9;     /* Light background */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+    margin: 20px auto;             /* Center horizontally */
+    font-family: Arial, sans-serif;
+    font-size: larger;             /* Larger font size */
+}
+.subheading{
+   font-size: 30px;
+   
+
+}
