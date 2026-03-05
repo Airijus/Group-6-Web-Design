@@ -10,6 +10,10 @@ body {
   color: #333;
 }
 
+p {
+  padding: 1px;
+}
+
 /* ================= NAVBAR ================= */
 
 nav {
@@ -221,3 +225,14 @@ td {
   align-items: center;
   padding: 20px;
 }
+
+.flex-container {
+    display: flex;
+}
+.flex-child {
+    flex: 1;
+    border: 2px solid blue;
+}  
+.flex-child:first-child {
+    margin-right: 20px;
+} 

@@ -5,3 +5,8 @@ LINK: https://wordsearchlabs.com/
 [TEST VERSION]
 Name: Test
 Pass: aaa
+
+[PERT VERSION]
+Name: percentage
+Pass: percentage
+https://wordsearchlabs.com/view/1469358
