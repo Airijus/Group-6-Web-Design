@@ -2,7 +2,6 @@ main {
     display: block;
 }
 
-
 /* Text box styling */
 .lawsofindicestextbox {
     max-width: 800px;              /* Limit width for readability */
@@ -48,7 +47,7 @@ main {
 main {
     display: block;
 }
-
+}
 
 /* Text box styling */
 .lawsofindicestextbox {
@@ -98,4 +97,22 @@ main {
    font-size: 30px;
    
 
+}
+
+.YT_Video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 370px;
+    padding-bottom: 100px;
+}
+
+#wordsearch_holder{
+    margin-top: 10px;
+
+}
+
+.Lesson_Game{
+margin-left:550px ;
+border: 2px dotted black;
 }
