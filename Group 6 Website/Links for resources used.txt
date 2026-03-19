@@ -47,3 +47,5 @@ indices Playlist - https://www.youtube.com/watch?v=dAW8RYTBA04&list=PLhQJF1F2RvP
 
 Output = 2³ = 8
 E = mc²
+
+https://mmerevise.co.uk/a-level-maths-revision/simultaneous-equations/

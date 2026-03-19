@@ -16,7 +16,13 @@ body
     margin-top: 20px;
     transform: translateX(10%);
 }
+#headerText_Indices{
 
+    margin-top: 55px;
+    text-align: center;
+    transform: translateX(418%);
+    font-family: "DM Sans";
+}
 #headerText_Index{
     margin-top: 55px;
     text-align: center;
@@ -168,6 +174,17 @@ body
 
 .section-image {
     width: 45%;
+    height: 250px;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+}
+
+.section-image2{
+    
+    width: 35%;
     height: 250px;
     background: #ccc;
     display: flex;
