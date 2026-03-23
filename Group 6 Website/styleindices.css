@@ -116,3 +116,7 @@ main {
 margin-left:550px ;
 border: 2px dotted black;
 }
+
+body {
+  background: linear-gradient(0deg, #9664ae, #ffffff);
+}
