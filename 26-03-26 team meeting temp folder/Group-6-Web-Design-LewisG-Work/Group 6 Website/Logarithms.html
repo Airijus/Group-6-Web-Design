@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathSpark</title>
+    <link rel="stylesheet" href="stylelogarithms.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <header class="logo-container">
+        <div id="headerLogo">
+            <img id="logo_T" src="onsiteImages/Logo-Transparent.png" alt="MathSpark Logo">
+        </div>
+        <h1 id="headerText_Indices">Logarithms</h1>
+    </header>
+   <div class = "nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lessons.html">Lessons</a></li>
+            <li><a href="apply.html">Apply</a></li>
+            <li><a href="employees.html">Employees</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section class="lessonContent">
+            <div>
+                <h1><strong>Logarithms: The Basics</strong></h1>
+                <p>
+                    In this lesson, we will go over the basic usage cases of logarithms in mathematics. <br>
+                    Logarithms are the direct opposite to an exponent/indices (as taught <a href=indices.html><strong>HERE</strong></a>)<br>
+                    <br>
+                    Logarithms ask the question: "How many times do i need to multiply a number by itself to get to another number?", and provide 
+                    exact values to achieve this goal.
+                </p>
+            </div>
+        </section>
+
+        <section id="examples">
+            <div class="lawsofindicestextbox">
+                <h1>How do Logarithms work?</h1>
+                <p>Logarithms Work using the following logic: <br><br>
+                <p>Log<char style="font-size: small; color: blue;">b</char>(<char style="color: red;">x</char>) = y</p>
+                <p>where <char style="font-size: small; color: blue;">b</char> = Base <br><char style="color: red;">x</char> = Result
+                <br> y = Exponent<br><br> The equation for a logarithm can also be written as: b^y = x</p>
+                <br>
+                <p>Logarithms allow for precise values to be calculated when figuring out which exponent you require for specific equations <br><br>
+                for example: <br><br></p>
+                <p>Find the value of x when 14^x = 23458967 <br><br>To perform this calculation, we can identify b to be 14, and x to be 23458967 <br>
+                we then use these values in our logarithm equation, which gets us
+                Log<char style="font-size: small; color: blue;">14</char>(<char style="color: red;">23458967</char>) = y
+            <br><br>using our calculators, we can therefore figure out that y = 6.43 to 3 significant figures.</p>
+            <br>
+            <h2>Why is this useful?</h2>
+            <p>The use of logarithms is very useful when trying to work backwards through a mathematical problem. if you are presented 
+            with a large equation containing several parts, it may be overwhelming to try and answer. using logarithms, we are able to
+            break down the essential aspects of an equation into more bite-sized, manageable pieces.  
+            </p>
+            </div>
+            <div class="TheLawsOfIndicesTextBox">
+                <h1>The Laws of Logarithms</h1>
+                <p>Logarithms, like their counterpart indices, have a selection of laws to follow when trying to use them. these Laws
+                    are as follows:
+                    <br><br>
+                    <h3>Multiplication Law:</h3>
+                    Log<char style="font-size: small; color: blue;">b</char>(<char style="color: red;">x</char>) + 
+                    Log<char style="font-size: small; color: blue;">b</char>(<char style="color: red;">y</char>) = 
+                    Log<char style="font-size: small; color: blue;">b</char>(<char style="color: red;">xy</char>)
+                
+                    
+                    <h3>Division Law:</h3>
+                    Log<char style="font-size: small; color: blue;">b</char>(<char style="color: red;">x</char>) - 
+                    Log<char style="font-size: small; color: blue;">b</char>(<char style="color: red;">y</char>) = 
+                    Log<char style="font-size: small; color: blue;">b</char>(<char style="color: red;">x/y</char>)
+
+                    
+                    <h3>Power Law:</h3>
+                    Log<char style="font-size: small; color: blue;">b</char>(<char style="color: red;">x</char>^<char style="color: purple;">y</char>) = 
+                    <char style="color: purple;">y</char>Log<char style="font-size: small; color: blue;">b</char>(<char style="color: red;">x</char>)
+                
+                <br><br><br>These laws make certain logarithmic calculations significantly easier to calculate. it is common to find equations with
+                several logarithms of the same base, which allows for the use of one of these three laws to be implemented. <br><strong>
+                    NOTE: the Logs need to have THE SAME BASE for these laws to work.
+                </strong>
+                </p>
+            </div>
+            <div class="TheLawsOfIndicesTextBox">
+                <p style="text-align: center;"><STRONG>Below is a couple of educational videos, courtesy of <br>TLMaths</STRONG></p>
+                
+            <iframe class="YT_Video" width="560" height="315" src="https://www.youtube.com/embed/F492MeO74fE?si=Lzkzl9I3xXHJpW-z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe class="YT_Video" width="560" height="315" src="https://www.youtube.com/embed/2wsJxXVdEcU?si=MSrhb2i89zkEo-KX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div>
+
+
+            <div class="lawsofindicestextbox">
+            <h2 id="Log_Wordsearch_Title"><strong>Logarithms Wordsearch</strong></h2>
+            <iframe src="https://wordsearchlabs.com/embed/1515916" frameborder="0" width="800" height="800"></iframe>
+            </div>
+            
+            <!-- Faabul Embed Code v1.2 -->
+            <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <iframe src="https://app.faabul.com/e/m9dQIXlQN9q8ZO" allow="screen-wake-lock; fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" sandbox="allow-scripts allow-same-origin allow-top-navigation-by-user-activation" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+            </div>
+
+            <a href="https://faabul.com/en/l/m9dQIXlQN9q8ZO" style="display: none;">Logarithms Quiz</a>
+            <!-- End Faabul Embed Code -->
+
+
+
+        </section>
+
+        <footer>
+            <p>&copy; 2026 MathSpark. All rights reserved.</p>
+        </footer>
+    </main>
+
+</body>
+<script src="script.js"></script>
+</html>

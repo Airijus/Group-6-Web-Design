@@ -1,0 +1,49 @@
+Websites/pictures/videos used for Indicies lesson - 
+
+https://thirdspacelearning.com/gcse-maths/algebra/laws-of-indices/
+
+laws of indicies picture - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fthirdspacelearning.com%2Fgcse-maths%2Falgebra%2Flaws-of-indices%2F&ved=0CBYQjRxqFwoTCOjW47Oz9ZIDFQAAAAAdAAAAABAI&opi=89978449
+
+fractional - https://www.youtube.com/watch?v=s7meFR3BKxs
+
+laws of indices - https://www.youtube.com/watch?v=op6-3ucret0
+
+indices Playlist - https://www.youtube.com/watch?v=dAW8RYTBA04&list=PLhQJF1F2RvPNrTvbAg721dZHeS6hDUcEV
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Power in HTML</title>
+</head>
+<body>
+    <p>2<sup>3</sup> = 8</p>
+    <p>E = mc<sup>2</sup></p>
+</body>
+</html>
+
+Output = 2³ = 8
+Websites/pictures/videos used for Indicies lesson - 
+
+https://thirdspacelearning.com/gcse-maths/algebra/laws-of-indices/
+
+laws of indicies picture - https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fthirdspacelearning.com%2Fgcse-maths%2Falgebra%2Flaws-of-indices%2F&ved=0CBYQjRxqFwoTCOjW47Oz9ZIDFQAAAAAdAAAAABAI&opi=89978449
+
+fractional - https://www.youtube.com/watch?v=s7meFR3BKxs
+
+laws of indices - https://www.youtube.com/watch?v=op6-3ucret0
+
+indices Playlist - https://www.youtube.com/watch?v=dAW8RYTBA04&list=PLhQJF1F2RvPNrTvbAg721dZHeS6hDUcEV
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Power in HTML</title>
+</head>
+<body>
+    <p>2<sup>3</sup> = 8</p>
+    <p>E = mc<sup>2</sup></p>
+</body>
+</html>
+
+Output = 2³ = 8
+E = mc²
