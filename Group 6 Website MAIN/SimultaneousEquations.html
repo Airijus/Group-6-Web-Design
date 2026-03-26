@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathSpark</title>
+    <link rel="stylesheet" href="styleSimultaneousEquations.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <header class="logo-container">
+        <div id="headerLogo">
+            <img id="logo_T" src="onsiteImages/Logo-Transparent.png" alt="MathSpark Logo">
+        </div>
+        <h1 id="headerText_SimultaneousEquations">Simultaneous Equations Lesson</h1>
+    </header>
+   <div class = "nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lessons.html">Lessons</a></li>
+            <li><a href="employees.html">Employees</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section id="lessonContentTextBox">
+            <div class="lessonContentTextBox">
+                <h1>Understanding Simultaneous Equations</h1>
+                <p>In this lesson, we will explore the concept of simultaneous equations in mathematics...</p>
+                <p>This will be explained through text but if that is not for you under the text is also some videos explaining the subject as well, under the videos you will find some games and lastly a quiz to show how much you have learnt.</p>
+            </div>
+        </section>
+
+            <section id="examples">
+                <div class="simultaneousEquationsExamplesTextBox">
+                    <h1>Simultaneous Equations Method 1 Elimination</h1>
+                    <p>Example: 3x + 7y - 44 = 0 ,  2x + 3y = 21</p>
+                    <p>Step 1 - write both  equations in the form of ax + by = c if necessary:</p>
+                    <p>3x + 7y = 44</p>
+                    <p>2x + 3y = 21</p>
+                    <p>Step 2 - Manipulate the equations so that the coefficients match - multiplying the equations to make either the x's or y's equal in size (ignoring the signs). Always multiply to get the LCM of the coefficients</p>
+                    <p>(×2) 3x + 7y = 44 ⇒ 6x + 14y = 88</p> 
+                    <p>(×3) 2x + 3y = 21 ⇒ 6x + 9y = 63</p>
+                    <p>Step 3 -  Add or subtract the equations so one variable cancels out, so that you can find the other variable. In this case, both equations have 6x, so we need to subtract:</p>
+                    <p>(6x + 14y) - (6x + 9y) = 88 - 63</p>
+                    <p>5y = 25</p>
+                    <p>Step 4 - Solve the resulting equations</p>
+                    <p>(÷5) 5y = 25</p>
+                    <p>y = 5</p>
+                    <p>Step 5 - find variable that you eliminated</p>
+                    <p> replace y = 5 into one of the equation and solve to find x:</p>
+                    <p>2x + 3y = 21</p>
+                    <p>2x + 3(5) = 21</p>
+                    <p>2x + 15 = 21</p> 
+                    <p>2x = 6</p>
+                    <p>x = 3 and y = 5</p>
+                </div>
+
+                <div class = "simultaneousEquationsMethod2TextBox">
+                    <h1>Simultaneous Equations Method 2 Substitution</h1>
+                    <p>We use the subsititution method when one of the simultaneous equations is quadratic (non-linear)</p>
+                    <p>Example:</p>
+                    <p>Solve -</p>
+                    <p>x2 + 2y = 31</p>
+                    <p>x + y = 14</p>
+                    <p>Step 1: Rearrange the linear equation so that one of the variables is on its own</p>
+                    <p>(−x) x + y ​= 14</p>
+                    <p>y = -x + 14</p>
+                    <p>Step 2: Substitute this variable into the quadratic equation</p>
+                    <p>y = −x + 14 so replace y with −x + 14 −x + 14:</p>
+                    <p>x2 + 2 (-x + 14) = 31</p>
+                    <p>Step 3: Expand and solve to find the values for one variable.</p>
+                    <p>x2 + 2 (-x + 14) = 31</p>
+                    <p>x2 - 2x + 28 = 31</p>
+                    <p>x2 - 2x - 3 = 0</p>
+                    <p>(x - 3)(x + 1) = 0</p>
+                    <p>x = 3 and x = -1</p>
+                    <p>Step 4: Substitute these values back into the linear equation to find y.</p>
+                    <p>when x = 3, y = -3 + 14 = 11</p>
+                    <p>when x = -1, y = -(-1) + 14 = 15</p>
+                    <p>So two solutions exist:</p>
+                    <p>x = 3, y = 11 and x = -1, y = 15</p>
+                    <p>(Note you may need to use the quadratic formula if you get a quadratic equation that is too difficult to solve by factorising)</p>
+                </div>
+
+                <div class="interpretingSimultaneousEquationsGeometricallyTextBox">
+                    <h1>interpreting Simultaneous Equations Geometrically</h1>
+                    <p>To interpret simultaneous equations geometrically, we can graph the equations on a coordinate plane.</p>
+                    <p>The number of solutions is equal to the number of intersections between the graphs:</p>
+                    <p>Two solutions – the graphs intersect twice</p>
+                    <p>One solution – the graphs meet at a single point – the graph is a tangent to the curve at this point</p>
+                    <p>No solutions – the graphs do not intersect</p>
+                    <div class="simultaneousEquationsGraph">
+                        <img src="https://mmerevise.co.uk/app/uploads/2021/07/Simultaneous-equations.-1-2048x889.png" alt="Simultaneous Equations Graph" style="width:835px;height:350px;">
+                    </div>
+                    <P>interpreting Simultaneous Equations Geometrically Example</P>
+                    <p>Interpret the following Geometrically: </p>
+                    <p>y = x2 - 3x and y = x - 4</p>
+                    <p>Substitute y = x - 4 into y = x2 - 3x and then solve to get X: </p>
+                    <p>x - 4 = x2 - 3x</p>
+                    <p>x2 - 4x + 4 = 0</p>
+                    <p>(x - 2)^2 = 0</p>
+                    <p> x = 2 </p>
+                    <p>Substitute x = 2 into y = x - 4 and solve it for y</p>
+                    <p>y = x - 4</p>
+                    <p>y = 2 - 4</p>
+                    <p>y = -2 </p>
+                    <p>Only one solution x = 2, y = -2</p>
+                    <p> this means the graphs meet at a single point (2, -2)</p>
+                    <p> this also means the straight line is a tangent to the curve point (one solution)</p>
+                </div>
+
+            <!-- Faabul Embed Code v1.2 -->
+            <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+            <iframe src="https://app.faabul.com/e/lDeFvf7qq4A50w" allow="screen-wake-lock; fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" sandbox="allow-scripts allow-same-origin allow-top-navigation-by-user-activation" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+            </div>
+            <a href="https://faabul.com/en/l/lDeFvf7qq4A50w">Simultaneous Equations</a>
+            <!-- End Faabul Embed Code -->
+            </section>
+        </main>
+    
+
+
+
+    </main> 
+
+</body>
+<script src="script.js"></script>
+</html>   
