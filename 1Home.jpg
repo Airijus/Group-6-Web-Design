@@ -1,0 +1,1595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathSpark</title>
+    <link rel="stylesheet" href="tyleindices.css">
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <header class="logo-container">
+        <div id="headerLogo">
+            <img id="logo_T" src="../onsiteImages/Logo-Transparent.png" alt="MathSpark Logo">
+        </div>
+        <h1 id="headerText_Apply">Compound Measures Lesson</h1>
+    </header>
+   <div class = "nav">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../lessons.html">Lessons</a></li>
+            <li><a href="../apply.html">Apply</a></li>
+            <li><a href="../employees.html">Employees</a></li>
+            <li><a href="../privacy.html">Privacy</a></li>
+        </ul>
+    </div>
+
+  <header class="hero">
+    <h1>Understanding Compound Measures</h1>
+    <p>In this lesson,we will explore the concenpt of Compound Measures in mathematics which includes:</p>
+    <p>Speed, Density and Pressure</p>
+  </header>
+
+  <div class="topic-nav">
+      <button onclick="showSection('overview')">Overview</button>
+      <button onclick="showSection('speed')">Speed</button>
+      <button onclick="showSection('density')">Density</button>
+      <button onclick="showSection('pressure')">Pressure</button>
+  </div>
+
+  <section id="overview" class="topic-section">
+    <section>
+    <header class="formula1">
+      <h1>Compound Measures
+     </h1>
+     <p>Here we will learn about compound measures including speed, density and pressure and look at problem solving using compound measures.
+     </p>
+     <p>There are also compound measures worksheets based on Edexcel, AQA and OCR exam questions, along with further guidance on where to go next if you’re still stuck.</p>  
+    </header>
+    <p>Compound measures are calculations made by combining two different measurements.And also are measurements that combine two different quantities to create a new value.</p>
+    <p>They are commonly used in mathematics, science and everyday life.</p>
+    <p>The most common compound measures at GCSE level are:
+ </p>
+
+  <ul>
+    <li>Speed = Distance ÷ Time</li>
+    <li>Density = Mass ÷ Volume</li>
+    <li>Pressure = Force ÷ Area</li>
+  </ul> </p>
+  </section>
+  <section>
+    <header class="formula2">
+      <h1>What are compound measures?
+     </h1>
+     <p>Compound measures are measures which are found from two other measures.
+     </p>
+     <p>The most common compound measures studied in GCSE maths are speed, density, and pressure.</p>
+     <p>To calculate the value of a compound measure, we need to know the value and the units of the other two measures</p>  
+    </header>
+  </section>
+
+    <section id="concept">
+        <h2>What Is It?</h2>
+        <p><strong>Speed</strong> measures how fast something moves.</p>
+        <p><strong>Density</strong> measures how compact a material is.</p>
+        <p><strong>Pressure</strong> measures how force is spread over an area.</p>
+        <p>
+    They are called "compound" because they combine two quantities into one new measurement.
+  </p>
+    </section>
+
+    <section id="formula">
+        <h2>Formula Box</h2>
+        <div class="formula-box">
+            <p>Speed = Distance ÷ Time</p>
+            <p>Density = Mass ÷ Volume</p>
+            <p>Pressure = Force ÷ Area</p>
+        </div>
+    </section>
+
+    <section id="examples">
+        <h2>Worked Examples</h2>
+
+        <div class="card">
+            <p><strong>Example 1:</strong> A car travels 120 km in 2 hours.</p>
+            <p>Speed = 120 ÷ 2 = 60 km/h</p>
+        </div>
+
+        <div class="card">
+            <p><strong>Example 2:</strong> Mass = 500g, Volume = 100cm³</p>
+            <p>Density = 500 ÷ 100 = 5 g/cm³</p>
+        </div>
+
+        <div class="card">
+            <p><strong>Example 3:</strong> Force = 200N, Area = 10m²</p>
+            <p>Pressure = 200 ÷ 10 = 20 N/m²</p>
+        </div> 
+        <div class="diagram-box">
+
+  <table>
+
+  <tr>
+  <th>Measure</th>
+  <th>What It Compares</th>
+  <th>Example</th>
+  </tr>
+
+  <tr>
+  <td>Speed</td>
+  <td>Distance and Time</td>
+  <td>60 km in 1 hour = 60 km/h</td>
+  </tr>
+
+  <tr>
+     <td>Density</td>
+     <td>Mass and Volume</td>
+     <td>500 g ÷ 100 cm³ = 5 g/cm³</td>
+  </tr>
+
+  <tr>
+  <td>Pressure</td>
+  <td>Force and Area</td>
+  <td>200 N ÷ 10 m² = 20 N/m²</td>
+  </tr>
+
+  </table>
+
+  </div>
+
+  <p>
+      These formulas help us understand how different physical quantities are related.
+      They are widely used in science, engineering and everyday problem solving.
+  </p>
+    </section>
+    </section>
+
+  <section id="speed" class="topic-section">
+    <section >
+        <header class="formulaS">
+            <h2>SPEED</h2>
+        <p><strong>Speed</strong> Is a compound measure made from dividing a unit of distance by a unit of time. Speed is therefore a measure of how much an object has travelled over a certain time period.</p>
+        <P>Common units for speed include metres per second (m/s)
+            (m/s) and kilometres per hour (k m / h).(km/h). Miles per hour (m p h) (mph) is associated with the speed of a vehicle. At GCSE we tend to use metric units rather than imperial units.</P>
+        </header>
+        <p>
+    It compares the <strong>distance travelled</strong> with the <strong>time taken</strong>.
+    If an object travels a large distance in a short time, it has a higher speed.
+    </p>
+    <div class="box">
+
+<h2>Speed formula</h2>
+
+<p>To calculate the speed of an object, we use the formula:</p>
+
+<p><b>Speed = distance / time</b></p>
+
+<p>This can be written as a formula triangle.</p>
+<title>Image in html</title>
+<img decoding="async" width="229" height="199" src="https://thirdspacelearning.com/wp-content/uploads/2022/06/Compound-Measures-image-1.png" alt="Compound Measures image 1" class="wp-image-136281">
+
+<p>
+            In simple terms, speed answers the question:
+            <strong>“How much distance is covered per unit of time?”</strong>
+        </p>
+
+        <div class="formula-box">
+            Speed = Distance ÷ Time
+
+            <h3>Explanation</h3>
+        <p>
+            If an object travels a large distance in a short amount of time,
+            it has a high speed.
+        </p>
+        <p>
+            If it travels a small distance over a long time,
+            it has a low speed.
+        </p>
+        <p>
+            Speed can be measured in:
+        </p>
+        <ul>
+            <li>m/s (metres per second)</li>
+            <li>km/h (kilometres per hour)</li>
+        </ul>
+
+        <hr>
+        </div>
+
+ <div class="diagram-box">
+
+    <table>
+    <tr>
+    <th>Distance</th>
+    <th>Time</th>
+    <th>Speed</th>
+    </tr>
+
+    <tr>
+    <td>100 km</td>
+    <td>2 hours</td>
+    <td>50 km/h</td>
+    </tr>
+
+    <tr>
+    <td>200 m</td>
+    <td>20 s</td>
+    <td>10 m/s</td>
+    </tr>
+
+    <tr>
+    <td>60 km</td>
+    <td>1 hour</td>
+    <td>60 km/h</td>
+    </tr>
+
+    </table>
+  </div>
+    </section>
+    
+    <section>
+    <header><div class="formulaSX">
+    <h2>Formula For Speed</h2>
+    <p>Here we will learn about the formula for speed including understanding and using the terms constant speed and average speed.
+      We will also be calculating the average speed of an object given its distance and time.
+      This will extend to using and applying the speed formula and solving problems involving the formula for speed.</p>
+      <p>There are also worksheets on the formula for speed distance and time based on Edexcel, AQA and OCR exam questions, along with further guidance on where to go next if you’re still stuck.</p>
+      <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><h2 class="wp-block-heading" id="h-what-is-the-formula-for-speed">What is the formula for speed?</h2>
+
+
+
+<p></p>
+
+
+
+<p>The<strong> formula for speed </strong>is given by</p>
+
+
+
+<p></p>
+
+
+
+<p><strong>Speed </strong><span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="bold">=</mtext></mrow><annotation encoding="application/x-tex"> \textbf{=} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.3911em;"></span><span class="mord text"><span class="mord textbf">=</span></span></span></span></span></span><strong> distance </strong><span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="bold">÷</mtext></mrow><annotation encoding="application/x-tex"> \textbf{÷} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.7667em; vertical-align: -0.1333em;"></span><span class="mord text"><span class="mord textbf">÷</span></span></span></span></span></span><strong> time</strong></p>
+
+
+
+<p></p>
+
+
+
+<p><em>“Speed equals distance divided by time”</em></p>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-image size-medium"><img fetchpriority="high" decoding="async" width="298" height="300" src="https://thirdspacelearning.com/wp-content/uploads/2022/03/Formula-For-Speed-Image-1-298x300.png" alt="Formula For Speed Image 1" class="wp-image-122208" srcset="https://thirdspacelearning.com/wp-content/uploads/2022/03/Formula-For-Speed-Image-1-298x300.png 298w, https://thirdspacelearning.com/wp-content/uploads/2022/03/Formula-For-Speed-Image-1-150x150.png 150w, https://thirdspacelearning.com/wp-content/uploads/2022/03/Formula-For-Speed-Image-1.png 464w" sizes="(max-width: 298px) 100vw, 298px"></figure>
+
+
+
+<p>You will normally shorten this to the below:</p>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-image size-medium is-style-default"><img decoding="async" width="298" height="300" src="https://thirdspacelearning.com/wp-content/uploads/2022/03/Formula-For-Speed-Image-2-298x300.png" alt="Formula For Speed Image 2" class="wp-image-122207" srcset="https://thirdspacelearning.com/wp-content/uploads/2022/03/Formula-For-Speed-Image-2-298x300.png 298w, https://thirdspacelearning.com/wp-content/uploads/2022/03/Formula-For-Speed-Image-2-150x150.png 150w, https://thirdspacelearning.com/wp-content/uploads/2022/03/Formula-For-Speed-Image-2.png 464w" sizes="(max-width: 298px) 100vw, 298px"></figure>
+
+
+
+<p>The speed of an object is travelling at is related to the distance it is covering in relation to how long it was travelling for (time).</p>
+
+
+
+<p></p>
+
+</div>
+
+</div>
+</div>
+   </div>
+    <div class="formula-boxS">
+            <h1>What is speed?</h1>
+        <p><strong>Speed</strong> is about how fast an object moves. The speed of the moving object is found by calculating the relationship between the distance the object travels and the period of time taken to travel the distance.</p>
+        <p><strong>Some examples of the units of speed are:</strong></p>
+        <p>.Metres per second (m/s)</p>
+        <p>.Kilometres per hour (km/h)</p>
+        <p>.Miles per hour (mph)</p>
+        <p>.Speed of sound (343 m/s)</p>
+        <p>.Speed of light (299,792,458 m/s)</p>
+        <ul>
+            <li>m/s (metres per second)</li>
+            <li>km/h (kilometres per hour)</li>
+        </ul>
+        <p><strong>Constant speed</strong> is where the speed does not change, e.g. a straight line on a distance-time graph indicates a constant speed.</p>
+        <p>We can calculate the<strong> average speed</strong>of an object by dividing the total distance by the total time taken.</p>
+        <p>If you also consider the direction of the movement as well at its speed then this is called the object’s<strong> velocity</strong>.</p>
+
+        <hr>
+        </div>
+        <div class="formula-box">
+            <h2>What is time?</h2>
+        <p><strong>Time</strong> can be defined as the ongoing sequence of events taking place.</p>
+        <P><strong>Some examples of the units of time are:</strong></P>
+        <ul>
+            <li>. Secounds (sec)</li>
+            <li>. Minutes (mins)</li>
+            <li>. Hours (hrs)</li>
+            <li>. Days</li>
+        </ul>
+        <p><strong>NOTE:</strong> The SI unit(Standard Unit Measurement) for time is the second (s).</p>
+
+        <hr>
+        </div>
+        </div>
+        <div class="formula-box">
+            <h3>What is distance?</h3>
+        <p><strong>Distance</strong>  is the length of space between two points.</p>
+        <P><strong>Some examples of the units of distance are:</strong></P>
+        <ul>
+            <li>. Millimetres (mm)</li>
+            <li>. Centimetres (cm)</li>
+            <li>. Metres (m)</li>
+            <li>. Kilometres (km)</li>
+            <li>. Miles (mi)</li>
+        </ul>
+        <p><strong>NOTE:</strong> if we only consider how far the object has moved in regards to its starting point this is called <strong>displacement</strong>.</p>
+
+        <hr>
+        </div>
+</header>
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><h3 class="wp-block-heading" id="h-example-4-using-speed-to-find-another-value">Example 1: using speed to find another value</h3>
+
+
+
+<p></p>
+
+
+
+<p>Question: Phil is in a running race. Phil runs at an average speed of <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>5</mn><mtext>&nbsp;</mtext><mi>m</mi><mi mathvariant="normal">/</mi><mi>s</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> 5 \ m/s. </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">5</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">m</span><span class="mord">/</span><span class="mord mathnormal">s</span><span class="mord">.</span></span></span></span></span></p>
+
+
+
+<p></p>
+
+
+
+<p>The race is <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>21</mn><mtext>&nbsp;</mtext><mi>k</mi><mi>m</mi></mrow><annotation encoding="application/x-tex"> 21 \ km </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6944em;"></span><span class="mord">21</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">km</span></span></span></span></span> long.</p>
+
+
+
+<p></p>
+
+
+
+<p>What is the amount of time Phil takes to finish the race?</p>
+
+
+
+<p></p>
+
+
+
+<p>Give your answer in <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi><mi>o</mi><mi>u</mi><mi>r</mi><mi>s</mi></mrow><annotation encoding="application/x-tex"> hours </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6944em;"></span><span class="mord mathnormal">h</span><span class="mord mathnormal">o</span><span class="mord mathnormal">u</span><span class="mord mathnormal">rs</span></span></span></span></span> and <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi><mi>i</mi><mi>n</mi><mi>u</mi><mi>t</mi><mi>e</mi><mi>s</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> minutes. </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6595em;"></span><span class="mord mathnormal">min</span><span class="mord mathnormal">u</span><span class="mord mathnormal">t</span><span class="mord mathnormal">es</span><span class="mord">.</span></span></span></span></span></p>
+
+
+
+<p></p>
+
+
+
+
+
+<p>Speed: <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>5</mn><mtext>&nbsp;</mtext><mi>m</mi><mi mathvariant="normal">/</mi><mi>s</mi></mrow><annotation encoding="application/x-tex"> 5 \ m/s </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">5</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">m</span><span class="mord">/</span><span class="mord mathnormal">s</span></span></span></span></span></p>
+
+
+
+<p></p>
+
+
+
+<p><br>Distance: <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>21</mn><mtext>&nbsp;</mtext><mi>k</mi><mi>m</mi></mrow><annotation encoding="application/x-tex"> 21 \ km </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6944em;"></span><span class="mord">21</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">km</span></span></span></span></span></p>
+
+
+
+<p></p>
+
+
+
+<p><br>Time: unknown</p>
+
+
+
+
+
+<p></p>
+
+
+
+
+
+<p>The question used two different units of distance, you need to convert one so you are working with equivalent distances. In this question it is easier to convert <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>21</mn><mtext>&nbsp;</mtext><mi>k</mi><mi>m</mi></mrow><annotation encoding="application/x-tex"> 21 \ km </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6944em;"></span><span class="mord">21</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">km</span></span></span></span></span> to <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> m. </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.4306em;"></span><span class="mord mathnormal">m</span><span class="mord">.</span></span></span></span></span></p>
+
+
+
+<p></p>
+
+
+
+<p><br><span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>21</mn><mtext>&nbsp;</mtext><mi>k</mi><mi>m</mi><mo>×</mo><mn>100</mn><mo>=</mo><mn>21000</mn><mtext>&nbsp;</mtext><mi>m</mi></mrow><annotation encoding="application/x-tex"> 21 \ km \times 100=21000 \ m </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.7778em; vertical-align: -0.0833em;"></span><span class="mord">21</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">km</span><span class="mspace" style="margin-right: 0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right: 0.2222em;"></span></span><span class="base"><span class="strut" style="height: 0.6444em;"></span><span class="mord">100</span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 0.6444em;"></span><span class="mord">21000</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">m</span></span></span></span></span></p>
+
+
+
+<p></p>
+
+
+
+<p><br>Because you now have equivalent units of distances you can calculate Phil’s time before converting to <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi><mi>o</mi><mi>u</mi><mi>r</mi><mi>s</mi></mrow><annotation encoding="application/x-tex"> hours </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6944em;"></span><span class="mord mathnormal">h</span><span class="mord mathnormal">o</span><span class="mord mathnormal">u</span><span class="mord mathnormal">rs</span></span></span></span></span> and <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi><mi>i</mi><mi>n</mi><mi>u</mi><mi>t</mi><mi>e</mi><mi>s</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> minutes. </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6595em;"></span><span class="mord mathnormal">min</span><span class="mord mathnormal">u</span><span class="mord mathnormal">t</span><span class="mord mathnormal">es</span><span class="mord">.</span></span></span></span></span></p>
+
+
+
+
+
+<p></p>
+
+
+
+
+
+<span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>Speed&nbsp;</mtext><mo>=</mo><mtext>&nbsp;distance&nbsp;</mtext><mo>÷</mo><mtext>&nbsp;time</mtext></mrow><annotation encoding="application/x-tex"> \text{Speed } = \text{ distance } \div \text{ time} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.8889em; vertical-align: -0.1944em;"></span><span class="mord text"><span class="mord">Speed&nbsp;</span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 0.7778em; vertical-align: -0.0833em;"></span><span class="mord text"><span class="mord">&nbsp;distance&nbsp;</span></span><span class="mspace" style="margin-right: 0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right: 0.2222em;"></span></span><span class="base"><span class="strut" style="height: 0.6679em;"></span><span class="mord text"><span class="mord">&nbsp;time</span></span></span></span></span></span>
+
+
+
+
+
+<p></p>
+
+
+
+
+
+<p>We are finding the time. We need to adapt the speed formula.</p>
+
+
+
+<p><br></p>
+
+
+
+<figure class="wp-block-image size-medium"><img decoding="async" width="298" height="300" src="https://thirdspacelearning.com/wp-content/uploads/2022/03/Formula-For-Speed-Example-4-Step-4-298x300.png" alt="Formula For Speed Example 4 Step 4" class="wp-image-122205" srcset="https://thirdspacelearning.com/wp-content/uploads/2022/03/Formula-For-Speed-Example-4-Step-4-298x300.png 298w, https://thirdspacelearning.com/wp-content/uploads/2022/03/Formula-For-Speed-Example-4-Step-4-150x150.png 150w, https://thirdspacelearning.com/wp-content/uploads/2022/03/Formula-For-Speed-Example-4-Step-4.png 464w" sizes="(max-width: 298px) 100vw, 298px"></figure>
+
+
+
+<span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mtable rowspacing="0.25em" columnalign="right left" columnspacing="0em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mtext>Time&nbsp;</mtext></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mtext>&nbsp;distance&nbsp;</mtext><mo>÷</mo><mtext>&nbsp;speed&nbsp;</mtext></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mtext>Time&nbsp;</mtext></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mn>21000</mn><mi>m</mi><mo>÷</mo><mn>5</mn><mtext>&nbsp;</mtext><mi>m</mi><mi mathvariant="normal">/</mi><mi>s</mi></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mtext>Time&nbsp;</mtext></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mn>4200</mn><mtext>&nbsp;seconds&nbsp;</mtext></mrow></mstyle></mtd></mtr></mtable><annotation encoding="application/x-tex"> \begin{aligned} \text {Time }&amp;=\text { distance } \div \text { speed } \\\\ \text {Time }&amp;=21000 m \div 5 \ m/ s \\\\ \text {Time }&amp;=4200 \text { seconds }  \end{aligned} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 7.5em; vertical-align: -3.5em;"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 4em;"><span class="" style="top: -6.16em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord text"><span class="mord">Time&nbsp;</span></span></span></span><span class="" style="top: -4.66em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"></span></span><span class="" style="top: -3.16em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord text"><span class="mord">Time&nbsp;</span></span></span></span><span class="" style="top: -1.66em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"></span></span><span class="" style="top: -0.16em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord text"><span class="mord">Time&nbsp;</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 3.5em;"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 4em;"><span class="" style="top: -6.16em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mord text"><span class="mord">&nbsp;distance&nbsp;</span></span><span class="mspace" style="margin-right: 0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right: 0.2222em;"></span><span class="mord text"><span class="mord">&nbsp;speed&nbsp;</span></span></span></span><span class="" style="top: -3.16em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mord">21000</span><span class="mord mathnormal">m</span><span class="mspace" style="margin-right: 0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right: 0.2222em;"></span><span class="mord">5</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">m</span><span class="mord">/</span><span class="mord mathnormal">s</span></span></span><span class="" style="top: -0.16em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mord">4200</span><span class="mord text"><span class="mord">&nbsp;seconds&nbsp;</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 3.5em;"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+
+
+
+
+<p></p>
+
+
+
+
+
+<p>You have calculated the time to be <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>4200</mn><mtext>&nbsp;</mtext><mi>s</mi><mi>e</mi><mi>c</mi><mi>o</mi><mi>n</mi><mi>d</mi><mi>s</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> 4200 \ seconds. </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6944em;"></span><span class="mord">4200</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">seco</span><span class="mord mathnormal">n</span><span class="mord mathnormal">d</span><span class="mord mathnormal">s</span><span class="mord">.</span></span></span></span></span></p>
+
+
+
+<p></p>
+
+
+
+<p><br>However the question wants the time in <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi><mi>o</mi><mi>u</mi><mi>r</mi><mi>s</mi></mrow><annotation encoding="application/x-tex"> hours </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6944em;"></span><span class="mord mathnormal">h</span><span class="mord mathnormal">o</span><span class="mord mathnormal">u</span><span class="mord mathnormal">rs</span></span></span></span></span> and <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi><mi>i</mi><mi>n</mi><mi>u</mi><mi>t</mi><mi>e</mi><mi>s</mi><mo separator="true">,</mo></mrow><annotation encoding="application/x-tex"> minutes, </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.854em; vertical-align: -0.1944em;"></span><span class="mord mathnormal">min</span><span class="mord mathnormal">u</span><span class="mord mathnormal">t</span><span class="mord mathnormal">es</span><span class="mpunct">,</span></span></span></span></span></p>
+
+
+
+<p></p>
+
+
+
+<p><br>Remember: <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>s</mi><mi>e</mi><mi>c</mi><mi>o</mi><mi>n</mi><mi>d</mi><mi>s</mi><mo>÷</mo><mn>60</mn><mo>=</mo><mi>m</mi><mi>i</mi><mi>n</mi><mi>u</mi><mi>t</mi><mi>e</mi><mi>s</mi></mrow><annotation encoding="application/x-tex"> seconds \div 60 = minutes </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.7778em; vertical-align: -0.0833em;"></span><span class="mord mathnormal">seco</span><span class="mord mathnormal">n</span><span class="mord mathnormal">d</span><span class="mord mathnormal">s</span><span class="mspace" style="margin-right: 0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right: 0.2222em;"></span></span><span class="base"><span class="strut" style="height: 0.6444em;"></span><span class="mord">60</span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 0.6595em;"></span><span class="mord mathnormal">min</span><span class="mord mathnormal">u</span><span class="mord mathnormal">t</span><span class="mord mathnormal">es</span></span></span></span></span> </p>
+
+
+
+<p></p>
+
+
+
+<p><br><span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>4200</mn><mo>÷</mo><mn>60</mn><mo>=</mo><mn>70</mn><mtext>&nbsp;</mtext><mi>m</mi><mi>i</mi><mi>n</mi><mi>u</mi><mi>t</mi><mi>e</mi><mi>s</mi></mrow><annotation encoding="application/x-tex"> 4200 \div 60=70 \ minutes </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.7278em; vertical-align: -0.0833em;"></span><span class="mord">4200</span><span class="mspace" style="margin-right: 0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right: 0.2222em;"></span></span><span class="base"><span class="strut" style="height: 0.6444em;"></span><span class="mord">60</span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 0.6595em;"></span><span class="mord">70</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">min</span><span class="mord mathnormal">u</span><span class="mord mathnormal">t</span><span class="mord mathnormal">es</span></span></span></span></span> </p>
+
+
+
+<p></p>
+
+
+
+<p><br>Therefore</p>
+
+
+
+<p></p>
+
+
+
+<p><br><span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>70</mn><mtext>&nbsp;</mtext><mi>m</mi><mi>i</mi><mi>n</mi><mi>u</mi><mi>t</mi><mi>e</mi><mi>s</mi><mo>=</mo><mn>1</mn><mtext>&nbsp;</mtext><mi>h</mi><mi>r</mi></mrow><annotation encoding="application/x-tex">  70 \ minutes=1 \ hr </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6595em;"></span><span class="mord">70</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">min</span><span class="mord mathnormal">u</span><span class="mord mathnormal">t</span><span class="mord mathnormal">es</span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 0.6944em;"></span><span class="mord">1</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">h</span><span class="mord mathnormal" style="margin-right: 0.0278em;">r</span></span></span></span></span> and <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>10</mn><mi>m</mi><mi>i</mi><mi>n</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">  10 mins </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6595em;"></span><span class="mord">10</span><span class="mord mathnormal">min</span><span class="mord mathnormal">s</span></span></span></span></span> </p>
+
+
+
+<p></p>
+
+
+
+<p><br>Therefore</p>
+
+
+
+<p></p>
+
+
+
+<p><br>Phil completes the race in <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mtext>&nbsp;</mtext><mi>h</mi><mi>o</mi><mi>u</mi><mi>r</mi></mrow><annotation encoding="application/x-tex"> 1 \ hour </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6944em;"></span><span class="mord">1</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">h</span><span class="mord mathnormal">o</span><span class="mord mathnormal">u</span><span class="mord mathnormal" style="margin-right: 0.0278em;">r</span></span></span></span></span>  and <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>10</mn><mtext>&nbsp;</mtext><mi>m</mi><mi>i</mi><mi>n</mi><mi>u</mi><mi>t</mi><mi>e</mi><mi>s</mi></mrow><annotation encoding="application/x-tex"> 10 \ minutes </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6595em;"></span><span class="mord">10</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">min</span><span class="mord mathnormal">u</span><span class="mord mathnormal">t</span><span class="mord mathnormal">es</span></span></span></span></span> </p>
+
+
+</div>
+</div>
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><h3 class="wp-block-heading" id="h-example-5-using-speed-to-find-another-value">Example 2: using speed to find another value</h3>
+
+
+
+<p></p>
+
+
+
+<p>Question: A train travels at <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>120</mn><mtext>&nbsp;</mtext><mi>k</mi><mi>m</mi><mi mathvariant="normal">/</mi><mi>h</mi></mrow><annotation encoding="application/x-tex"> 120 \ km/h </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">120</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">km</span><span class="mord">/</span><span class="mord mathnormal">h</span></span></span></span></span> for <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>3</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mtext>&nbsp;</mtext><mi>h</mi><mi>o</mi><mi>u</mi><mi>r</mi><mi>s</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> 3\frac{1}{4} \ hours. </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1.1901em; vertical-align: -0.345em;"></span><span class="mord">3</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.8451em;"><span class="" style="top: -2.655em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.345em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace">&nbsp;</span><span class="mord mathnormal">h</span><span class="mord mathnormal">o</span><span class="mord mathnormal">u</span><span class="mord mathnormal">rs</span><span class="mord">.</span></span></span></span></span> Calculate the total distance travelled. 
+</p>
+
+
+
+<p></p>
+
+
+
+
+
+<p>Speed: <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>120</mn><mtext>&nbsp;</mtext><mi>k</mi><mi>m</mi><mi mathvariant="normal">/</mi><mi>h</mi></mrow><annotation encoding="application/x-tex"> 120 \ km/h </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">120</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">km</span><span class="mord">/</span><span class="mord mathnormal">h</span></span></span></span></span></p>
+
+
+
+<p></p>
+
+
+
+<p><br>Distance: unknown</p>
+
+
+
+<p></p>
+
+
+
+<p><br>Time: <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>3</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mtext>&nbsp;</mtext><mi>h</mi><mi>o</mi><mi>u</mi><mi>r</mi><mi>s</mi><mo>=</mo><mn>3.25</mn><mtext>&nbsp;</mtext><mi>h</mi><mi>o</mi><mi>u</mi><mi>r</mi><mi>s</mi></mrow><annotation encoding="application/x-tex"> 3\frac{1}{4} \ hours=3.25 \ hours </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1.1901em; vertical-align: -0.345em;"></span><span class="mord">3</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.8451em;"><span class="" style="top: -2.655em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.345em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace">&nbsp;</span><span class="mord mathnormal">h</span><span class="mord mathnormal">o</span><span class="mord mathnormal">u</span><span class="mord mathnormal">rs</span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 0.6944em;"></span><span class="mord">3.25</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">h</span><span class="mord mathnormal">o</span><span class="mord mathnormal">u</span><span class="mord mathnormal">rs</span></span></span></span></span></p>
+
+
+
+
+
+<p></p>
+
+
+
+
+
+<p>The units align. Sometime people prefer decimals to fractions, so we can use <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>3</mn><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow><annotation encoding="application/x-tex"> 3\frac{1}{4} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1.1901em; vertical-align: -0.345em;"></span><span class="mord">3</span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.8451em;"><span class="" style="top: -2.655em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">4</span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.345em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span> or <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>3.25</mn></mrow><annotation encoding="application/x-tex"> 3.25 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6444em;"></span><span class="mord">3.25</span></span></span></span></span></p>
+
+
+
+
+
+<p></p>
+
+
+
+
+
+<span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>Speed&nbsp;</mtext><mo>=</mo><mtext>&nbsp;distance&nbsp;</mtext><mo>÷</mo><mtext>&nbsp;time</mtext></mrow><annotation encoding="application/x-tex"> \text{Speed } = \text{ distance } \div \text{ time} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.8889em; vertical-align: -0.1944em;"></span><span class="mord text"><span class="mord">Speed&nbsp;</span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 0.7778em; vertical-align: -0.0833em;"></span><span class="mord text"><span class="mord">&nbsp;distance&nbsp;</span></span><span class="mspace" style="margin-right: 0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right: 0.2222em;"></span></span><span class="base"><span class="strut" style="height: 0.6679em;"></span><span class="mord text"><span class="mord">&nbsp;time</span></span></span></span></span></span>
+
+
+
+
+
+<p></p>
+
+
+
+
+
+<p>We are finding the time. We need to adapt the speed formula.</p>
+
+
+
+<p><br></p>
+
+
+
+<figure class="wp-block-image size-medium is-style-default"><img decoding="async" width="298" height="300" src="https://thirdspacelearning.com/wp-content/uploads/2022/03/Formula-For-Speed-Example-5-Step-4-298x300.png" alt="Formula For Speed Example 5 Step 4" class="wp-image-122204" srcset="https://thirdspacelearning.com/wp-content/uploads/2022/03/Formula-For-Speed-Example-5-Step-4-298x300.png 298w, https://thirdspacelearning.com/wp-content/uploads/2022/03/Formula-For-Speed-Example-5-Step-4-150x150.png 150w, https://thirdspacelearning.com/wp-content/uploads/2022/03/Formula-For-Speed-Example-5-Step-4.png 464w" sizes="(max-width: 298px) 100vw, 298px"></figure>
+
+
+
+<span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mtable rowspacing="0.25em" columnalign="right left" columnspacing="0em"><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mtext>Distance&nbsp;</mtext></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mtext>speed</mtext><mo>×</mo><mtext>time</mtext></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mtext>Distance&nbsp;</mtext></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mn>120</mn><mtext>&nbsp;km/h</mtext><mo>×</mo><mn>3.25</mn><mtext>&nbsp;hours</mtext></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="true"><mtext>Distance&nbsp;</mtext></mstyle></mtd><mtd><mstyle scriptlevel="0" displaystyle="true"><mrow><mrow></mrow><mo>=</mo><mn>390</mn><mtext>&nbsp;km&nbsp;</mtext></mrow></mstyle></mtd></mtr></mtable><annotation encoding="application/x-tex"> \begin{aligned} \text {Distance }&amp;=\text {speed} \times \text {time} \\\\ \text {Distance }&amp;=120 \  \text{km/h}  \times  3.25\ \text{hours} \\\\ \text {Distance }&amp;=390 \text { km } \end{aligned} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 7.5em; vertical-align: -3.5em;"></span><span class="mord"><span class="mtable"><span class="col-align-r"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 4em;"><span class="" style="top: -6.16em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord text"><span class="mord">Distance&nbsp;</span></span></span></span><span class="" style="top: -4.66em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"></span></span><span class="" style="top: -3.16em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord text"><span class="mord">Distance&nbsp;</span></span></span></span><span class="" style="top: -1.66em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"></span></span><span class="" style="top: -0.16em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord text"><span class="mord">Distance&nbsp;</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 3.5em;"><span class=""></span></span></span></span></span><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 4em;"><span class="" style="top: -6.16em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mord text"><span class="mord">speed</span></span><span class="mspace" style="margin-right: 0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right: 0.2222em;"></span><span class="mord text"><span class="mord">time</span></span></span></span><span class="" style="top: -3.16em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mord">120</span><span class="mspace">&nbsp;</span><span class="mord text"><span class="mord">km/h</span></span><span class="mspace" style="margin-right: 0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right: 0.2222em;"></span><span class="mord">3.25</span><span class="mspace">&nbsp;</span><span class="mord text"><span class="mord">hours</span></span></span></span><span class="" style="top: -0.16em;"><span class="pstrut" style="height: 3em;"></span><span class="mord"><span class="mord"></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mord">390</span><span class="mord text"><span class="mord">&nbsp;km&nbsp;</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 3.5em;"><span class=""></span></span></span></span></span></span></span></span></span></span></span>
+
+
+
+
+
+<p></p>
+
+
+
+
+
+<p>You have calculated the time to be <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>390</mn><mtext>&nbsp;</mtext><mi>k</mi><mi>i</mi><mi>l</mi><mi>o</mi><mi>m</mi><mi>e</mi><mi>t</mi><mi>r</mi><mi>e</mi><mi>s</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> 390 \ kilometres. </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6944em;"></span><span class="mord">390</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">ki</span><span class="mord mathnormal" style="margin-right: 0.0197em;">l</span><span class="mord mathnormal">o</span><span class="mord mathnormal">m</span><span class="mord mathnormal">e</span><span class="mord mathnormal">t</span><span class="mord mathnormal">res</span><span class="mord">.</span></span></span></span></span></p>
+
+
+
+<p></p>
+
+
+
+<p><br>Therefore the distance of the journey is <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>390</mn><mtext>&nbsp;</mtext><mi>k</mi><mi>m</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> 390 \ km. </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6944em;"></span><span class="mord">390</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">km</span><span class="mord">.</span></span></span></span></span></p>
+
+
+</div>
+</div>
+  </section>
+
+   <section>
+        <h3>Quick Quiz</h3>
+
+  <div class="quiz-container">
+
+    <div class="quiz-question">
+        <p>1. An object travels 100 km in 2 hours. What is the speed?</p>
+        <label><input type="radio" name="q1" value="40"> 40 km/h</label><br>
+        <label><input type="radio" name="q1" value="50"> 50 km/h</label><br>
+        <label><input type="radio" name="q1" value="60"> 60 km/h</label>
+    </div>
+
+    <div class="quiz-question">
+        <p>2. A runner travels 400 m in 50 seconds. What is the speed?</p>
+        <label><input type="radio" name="q2" value="6"> 6 m/s</label><br>
+        <label><input type="radio" name="q2" value="8"> 8 m/s</label><br>
+        <label><input type="radio" name="q2" value="10"> 10 m/s</label>
+    </div>
+
+    <div class="quiz-question">
+        <p>3. A car travels 240 km in 3 hours. What is the speed?</p>
+        <label><input type="radio" name="q3" value="70"> 70 km/h</label><br>
+        <label><input type="radio" name="q3" value="80"> 80 km/h</label><br>
+        <label><input type="radio" name="q3" value="90"> 90 km/h</label>
+    </div>
+
+    <div class="quiz-question">
+        <p>4. A bike travels 90 km in 1.5 hours. What is the speed?</p>
+        <label><input type="radio" name="q4" value="50"> 50 km/h</label><br>
+        <label><input type="radio" name="q4" value="60"> 60 km/h</label><br>
+        <label><input type="radio" name="q4" value="70"> 70 km/h</label>
+    </div>
+
+    <div class="quiz-question">
+        <p>5. A train travels 600 km in 5 hours. What is the speed?</p>
+        <label><input type="radio" name="q5" value="100"> 100 km/h</label><br>
+        <label><input type="radio" name="q5" value="120"> 120 km/h</label><br>
+        <label><input type="radio" name="q5" value="140"> 140 km/h</label>
+    </div>
+
+    <button onclick="checkSpeedQuiz()">Check Answers</button>
+
+    <p id="quiz-result"></p>
+
+</div>
+    </section>
+
+</section>
+
+<section id="density" class="topic-section">
+    <section>
+    <header class="formulaS">
+    <h2>DENSITY</h2>
+    <p>Density is a compound measure that shows how much mass is contained
+    within a given volume.</p>
+    <p>
+    It tells us how tightly packed the particles are in a material.
+</p>
+
+<p><strong>Density</strong> measures how compact a material is.</p>
+
+    </header>
+    <p>
+It compares the <strong>mass of an object</strong> with the <strong>volume it occupies</strong>.
+Heavy materials packed into a small space have a higher density.
+</p>
+<p>Common units for density include, grams per cubic centimetre 
+(
+g
+/
+c
+m
+3
+)
+(g/cm 
+3
+ ) and kilograms per cubic metre 
+(
+k
+g
+/
+m
+3
+)
+.
+(kg/m 
+3
+ ).</p>
+ <p><strong>Density Formula</strong></p>
+ <P>To calculate the density of an object, we use the density formula,</P>
+ <p><strong>Density = Mass ÷ Volume</strong></p>
+ <p>This can be written as a formula triangle.</p>
+
+ <title>Image in html</title>
+ <img decoding="async" width="229" height="199" src="https://thirdspacelearning.com/wp-content/uploads/2022/06/Compound-Measures-image-2.png" alt="Compound Measures image 2" class="wp-image-136282">
+
+ <div class="formula-box">
+    <h1> Mass Density Volume</h1>
+    <p>Here we will learn about mass, density and volume, including what they are and how they are related to each other.</p>
+    <p>There are also mass density volume worksheets based on Edexcel, AQA and OCR exam questions, along with further guidance on where to go next if you’re still stuck.</p>
+</div>
+<h2>what is Mass Density Volume?</h2>
+<P>Mass, density and volume are physical properties of objects.</P>
+
+<P><strong>Mass</strong> is the measurement of the amount of matter there is in an object. The units of mass are usually kilograms 
+(
+k
+g
+)
+(kg) or grams 
+(
+g
+)
+.
+(g). The<strong>kilogram</strong> is the SI unit (the International System of Units) for mass.</P>
+<P><strong>Volume</strong> is a measure of how much space an object takes up. The volume of a substance is often measured in cubic centimetres 
+(
+c
+m
+3
+)
+.
+(cm 
+3
+). The derived SI unit for volume is the <strong>cubic metre </strong>
+(
+m
+3
+)
+.
+(m 
+3
+ ).
+
+</P>
+<P><strong>Density</strong> is a compound measure made from the ratio of mass and volume. Density is a measure of the amount of matter there is per unit volume. The SI unit for density is<strong> kilograms per cubic metre </strong> 
+(
+k
+g
+/
+m
+3
+)
+.
+(kg/m 
+3
+ ).</P>
+ <p>Imagine there are two objects the same size. The first object has high density, the second object has a lower density. The object with high density would feel heavier than the object with the lower density.</p>
+ <p>You could try this with two water bottles. Fill one with water and fill the other with air.</p>
+ <p>The density of water is approximately 
+1000
+ 
+k
+g
+/
+m
+3
+.
+1000 kg/m 
+3
+ .
+
+</p>
+<p>The density of air is approximately 
+1.225
+ 
+k
+g
+/
+m
+3
+.
+1.225 kg/m 
+3
+ .</p>
+ <p>If an object has a large mass but small volume, it has a high density.</p>
+<p>
+    If it has a small mass but large volume, it has a low density.
+</p>
+<p>Common units include:</p>
+<ul>
+    <li>g/cm³</li>
+    <li>kg/m³</li>
+</ul>
+
+<hr>
+
+<div class="diagram-box">
+
+<table>
+
+<tr>
+<th>Mass</th>
+<th>Volume</th>
+<th>Density</th>
+</tr>
+
+<tr>
+<td>500 g</td>
+<td>100 cm³</td>
+<td>5 g/cm³</td>
+</tr>
+
+<tr>
+<td>800 g</td>
+<td>200 cm³</td>
+<td>4 g/cm³</td>
+</tr>
+
+</table>
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><h3 class="wp-block-heading">Density</h3>
+
+
+
+<p></p>
+
+
+
+<p>To calculate the mass, density or volume of an object, we use the formula:</p>
+
+
+
+<p></p>
+
+
+
+<span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>Density</mtext><mo>=</mo><mfrac><mtext>Mass</mtext><mtext>Volume</mtext></mfrac></mrow><annotation encoding="application/x-tex"> \text{Density}=\frac{\text{Mass}}{\text{Volume}} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.8778em; vertical-align: -0.1944em;"></span><span class="mord text"><span class="mord">Density</span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 1.2173em; vertical-align: -0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.8723em;"><span class="" style="top: -2.655em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">Volume</span></span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">Mass</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.345em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>
+
+
+
+<p></p>
+
+
+
+<p>This can be written as a formula triangle:</p>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img decoding="async" width="304" height="264" src="https://thirdspacelearning.com/wp-content/uploads/2022/05/Mass-density-volume-image-1.png" alt="Mass density volume image 1" class="wp-image-126858" style="width:180px" srcset="https://thirdspacelearning.com/wp-content/uploads/2022/05/Mass-density-volume-image-1.png 304w, https://thirdspacelearning.com/wp-content/uploads/2022/05/Mass-density-volume-image-1-300x261.png 300w" sizes="(max-width: 304px) 100vw, 304px"></figure>
+
+
+
+<p></p>
+
+
+
+<p>where <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi></mrow><annotation encoding="application/x-tex"> M </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord mathnormal" style="margin-right: 0.109em;">M</span></span></span></span></span> is the mass, <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>D</mi></mrow><annotation encoding="application/x-tex"> D </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord mathnormal" style="margin-right: 0.0278em;">D</span></span></span></span></span> is the density, and <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>V</mi></mrow><annotation encoding="application/x-tex"> V </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord mathnormal" style="margin-right: 0.2222em;">V</span></span></span></span></span> is the volume of an object.</p>
+
+
+
+<p></p>
+
+
+
+<p>Using this triangle, we can show:</p>
+
+
+
+<p></p>
+
+
+
+<ul class="wp-block-list">
+<li><span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>M</mi><mo>=</mo><mi>D</mi><mo>×</mo><mi>V</mi></mrow><annotation encoding="application/x-tex"> M=D\times{V} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord mathnormal" style="margin-right: 0.109em;">M</span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 0.7667em; vertical-align: -0.0833em;"></span><span class="mord mathnormal" style="margin-right: 0.0278em;">D</span><span class="mspace" style="margin-right: 0.2222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right: 0.2222em;"></span></span><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right: 0.2222em;">V</span></span></span></span></span></span></li>
+
+
+
+<li><span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>D</mi><mo>=</mo><mi>M</mi><mo>÷</mo><mi>V</mi></mrow><annotation encoding="application/x-tex"> D=M\div{V} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord mathnormal" style="margin-right: 0.0278em;">D</span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 0.7667em; vertical-align: -0.0833em;"></span><span class="mord mathnormal" style="margin-right: 0.109em;">M</span><span class="mspace" style="margin-right: 0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right: 0.2222em;"></span></span><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right: 0.2222em;">V</span></span></span></span></span></span></li>
+
+
+
+<li><span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>V</mi><mo>=</mo><mi>M</mi><mo>÷</mo><mi>D</mi></mrow><annotation encoding="application/x-tex"> V=M\div{D} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord mathnormal" style="margin-right: 0.2222em;">V</span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 0.7667em; vertical-align: -0.0833em;"></span><span class="mord mathnormal" style="margin-right: 0.109em;">M</span><span class="mspace" style="margin-right: 0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right: 0.2222em;"></span></span><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right: 0.0278em;">D</span></span></span></span></span></span></li>
+</ul>
+
+
+
+<p></p>
+
+
+
+<p>Note: The <strong>relative density</strong>, or <strong>specific gravity</strong> is the relationship between the density of a substance in relation to the density of another referenced substance. </p>
+
+
+
+<p></p>
+
+
+
+<p>For example, water at <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>4</mn><mi>o</mi></msup><mi>C</mi></mrow><annotation encoding="application/x-tex"> 4^{o}C </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord"><span class="mord">4</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.6644em;"><span class="" style="top: -3.063em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">o</span></span></span></span></span></span></span></span></span><span class="mord mathnormal" style="margin-right: 0.0715em;">C</span></span></span></span></span> has a density of <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mi>k</mi><mi>g</mi><mi mathvariant="normal">/</mi><mi>l</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> 1kg/l. </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">1</span><span class="mord mathnormal" style="margin-right: 0.0315em;">k</span><span class="mord mathnormal" style="margin-right: 0.0359em;">g</span><span class="mord">/</span><span class="mord mathnormal" style="margin-right: 0.0197em;">l</span><span class="mord">.</span></span></span></span></span> Liquid mercury has a density of <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>13.6</mn><mi>k</mi><mi>g</mi><mi mathvariant="normal">/</mi><mi>l</mi></mrow><annotation encoding="application/x-tex"> 13.6kg/l </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">13.6</span><span class="mord mathnormal" style="margin-right: 0.0315em;">k</span><span class="mord mathnormal" style="margin-right: 0.0359em;">g</span><span class="mord">/</span><span class="mord mathnormal" style="margin-right: 0.0197em;">l</span></span></span></span></span> and so its specific gravity is <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>13.6</mn></mrow><annotation encoding="application/x-tex"> 13.6 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6444em;"></span><span class="mord">13.6</span></span></span></span></span> as <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>13.6</mn><mo>÷</mo><mn>1</mn><mo>=</mo><mn>13.6.</mn></mrow><annotation encoding="application/x-tex"> 13.6\div{1}=13.6. </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.7278em; vertical-align: -0.0833em;"></span><span class="mord">13.6</span><span class="mspace" style="margin-right: 0.2222em;"></span><span class="mbin">÷</span><span class="mspace" style="margin-right: 0.2222em;"></span></span><span class="base"><span class="strut" style="height: 0.6444em;"></span><span class="mord"><span class="mord">1</span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 0.6444em;"></span><span class="mord">13.6.</span></span></span></span></span> As both units are in <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi><mi>g</mi><mi mathvariant="normal">/</mi><mi>l</mi><mo separator="true">,</mo></mrow><annotation encoding="application/x-tex"> kg/l, </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord mathnormal" style="margin-right: 0.0315em;">k</span><span class="mord mathnormal" style="margin-right: 0.0359em;">g</span><span class="mord">/</span><span class="mord mathnormal" style="margin-right: 0.0197em;">l</span><span class="mpunct">,</span></span></span></span></span> specific gravity has no units.</p>
+</div>
+</div>
+
+</div>
+<h3>Worked Examples</h3>
+
+<title>Image in html</title>
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><h3 class="wp-block-heading" id="h-example-1-calculating-the-density-g-cm-3">Example 1: calculating the density <tnr>(g/cm<sup>3</sup>)</tnr></h3>
+
+
+
+<p></p>
+
+
+
+<p>A sphere is made from gold. It has volume <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>3</mn><mtext>&nbsp;</mtext><mi>c</mi><msup><mi>m</mi><mn>3</mn></msup></mrow><annotation encoding="application/x-tex"> 3 \ cm^3 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.8141em;"></span><span class="mord">3</span><span class="mspace">&nbsp;</span><span class="mord mathnormal">c</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.8141em;"><span class="" style="top: -3.063em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></span> and mass <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>60</mn><mtext>&nbsp;</mtext><mi>g</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> 60 \ g. </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.8389em; vertical-align: -0.1944em;"></span><span class="mord">60</span><span class="mspace">&nbsp;</span><span class="mord mathnormal" style="margin-right: 0.0359em;">g</span><span class="mord">.</span></span></span></span></span> Calculate the density of the object.</p>
+
+
+
+<p></p>
+
+
+
+<ol class="wp-block-list">
+<li><strong>Write the formula with the correct subject.</strong></li>
+</ol>
+
+
+
+<p></p>
+
+
+
+<p>To calculate the density, we would need to divide the mass of the object by the volume of the object.</p>
+
+
+
+<p></p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="304" height="264" src="https://thirdspacelearning.com/wp-content/uploads/2022/05/Mass-density-volume-flip-card-2.png" alt="Mass density volume flip card 2" class="wp-image-126856" srcset="https://thirdspacelearning.com/wp-content/uploads/2022/05/Mass-density-volume-flip-card-2.png 304w, https://thirdspacelearning.com/wp-content/uploads/2022/05/Mass-density-volume-flip-card-2-300x261.png 300w" sizes="(max-width: 304px) 100vw, 304px"></figure>
+
+
+
+<p></p>
+
+
+
+<span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>Density</mtext><mo>=</mo><mfrac><mtext>Mass</mtext><mtext>Volume</mtext></mfrac></mrow><annotation encoding="application/x-tex"> \text{Density}=\frac{\text{Mass}}{\text{Volume}} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.8778em; vertical-align: -0.1944em;"></span><span class="mord text"><span class="mord">Density</span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 1.2173em; vertical-align: -0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.8723em;"><span class="" style="top: -2.655em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">Volume</span></span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">Mass</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.345em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p><span class="is-counter">2</span><strong>Substitute known values into the formula and do the calculation.</strong></p>
+
+
+
+<p></p>
+
+
+
+<span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>Density</mtext><mo>=</mo><mfrac><mtext>Mass</mtext><mtext>Volume</mtext></mfrac><mo>=</mo><mfrac><mn>60</mn><mn>3</mn></mfrac><mo>=</mo><mn>20</mn></mrow><annotation encoding="application/x-tex"> \text{Density}=\frac{\text{Mass}}{\text{Volume}}=\frac{60}{3}=20 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.8778em; vertical-align: -0.1944em;"></span><span class="mord text"><span class="mord">Density</span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 1.2173em; vertical-align: -0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.8723em;"><span class="" style="top: -2.655em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">Volume</span></span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">Mass</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.345em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 1.1901em; vertical-align: -0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.8451em;"><span class="" style="top: -2.655em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">60</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.345em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 0.6444em;"></span><span class="mord">20</span></span></span></span></span>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p><span class="is-counter">3</span><strong> Write down the solution including the units.</strong></p>
+
+
+<p></p>
+
+
+
+<p>The density of the object is <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>20</mn><msup><mtext>&nbsp;g/cm</mtext><mn>3</mn></msup></mrow><annotation encoding="application/x-tex"> 20\text{ g/cm}^{3} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1.204em; vertical-align: -0.25em;"></span><span class="mord">20</span><span class="mord"><span class="mord text"><span class="mord">&nbsp;g/cm</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.954em;"><span class="" style="top: -3.2029em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></span></span>.</p>
+
+</div>
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><h3 class="wp-block-heading" id="h-example-2-calculating-the-density-kg-m-3">Example 2: calculating the density <tnr>(kg/m<sup>3</sup>)</tnr></h3>
+
+
+
+<p></p>
+
+
+
+<p>An object is made from steel. It has a volume of <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>25</mn><mtext>&nbsp;</mtext><msup><mi>m</mi><mn>3</mn></msup></mrow><annotation encoding="application/x-tex"> 25 \ m^3 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.8141em;"></span><span class="mord">25</span><span class="mspace">&nbsp;</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.8141em;"><span class="" style="top: -3.063em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></span> and a mass of <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>425</mn><mtext>&nbsp;</mtext><mi>k</mi><mi>g</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> 425 \ kg. </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.8889em; vertical-align: -0.1944em;"></span><span class="mord">425</span><span class="mspace">&nbsp;</span><span class="mord mathnormal" style="margin-right: 0.0315em;">k</span><span class="mord mathnormal" style="margin-right: 0.0359em;">g</span><span class="mord">.</span></span></span></span></span> Calculate the density of the object.</p>
+
+
+
+<p></p>
+
+
+
+
+
+<p>To calculate the density, we need to divide the mass of the object by the volume of the object.</p>
+
+
+
+<p><br></p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="304" height="264" src="https://thirdspacelearning.com/wp-content/uploads/2022/05/Mass-density-volume-example-2.png" alt="Mass density volume example 2" class="wp-image-126850" srcset="https://thirdspacelearning.com/wp-content/uploads/2022/05/Mass-density-volume-example-2.png 304w, https://thirdspacelearning.com/wp-content/uploads/2022/05/Mass-density-volume-example-2-300x261.png 300w" sizes="(max-width: 304px) 100vw, 304px"></figure>
+
+
+
+<p></p>
+
+
+
+<p><br><span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>Density</mtext><mo>=</mo><mfrac><mtext>Mass</mtext><mtext>Volume</mtext></mfrac></mrow><annotation encoding="application/x-tex"> \text{Density}=\frac{\text{Mass}}{\text{Volume}} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.8778em; vertical-align: -0.1944em;"></span><span class="mord text"><span class="mord">Density</span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 1.2173em; vertical-align: -0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.8723em;"><span class="" style="top: -2.655em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">Volume</span></span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">Mass</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.345em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+
+
+
+
+
+<p></p>
+
+
+
+
+
+<span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>Density</mtext><mo>=</mo><mfrac><mtext>Mass</mtext><mtext>Volume</mtext></mfrac><mo>=</mo><mfrac><mn>425</mn><mn>25</mn></mfrac><mo>=</mo><mn>17</mn></mrow><annotation encoding="application/x-tex"> \text{Density}=\frac{\text{Mass}}{\text{Volume}}=\frac{425}{25}=17 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.8778em; vertical-align: -0.1944em;"></span><span class="mord text"><span class="mord">Density</span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 1.2173em; vertical-align: -0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.8723em;"><span class="" style="top: -2.655em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">Volume</span></span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">Mass</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.345em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 1.1901em; vertical-align: -0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.8451em;"><span class="" style="top: -2.655em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">25</span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">425</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.345em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 0.6444em;"></span><span class="mord">17</span></span></span></span></span>
+
+
+
+
+
+<p></p>
+
+
+
+
+
+<p>The density of the object made of steel is <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>17</mn><mtext>&nbsp;</mtext><mi>k</mi><mi>g</mi><mi mathvariant="normal">/</mi><msup><mi>m</mi><mn>3</mn></msup><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> 17 \ kg/m^{3}. </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1.0641em; vertical-align: -0.25em;"></span><span class="mord">17</span><span class="mspace">&nbsp;</span><span class="mord mathnormal" style="margin-right: 0.0315em;">k</span><span class="mord mathnormal" style="margin-right: 0.0359em;">g</span><span class="mord">/</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.8141em;"><span class="" style="top: -3.063em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span><span class="mord">.</span></span></span></span></span></p>
+
+
+</div>
+</div>
+
+<h3>Quick Quiz</h3>
+
+<div class="quiz-container">
+
+    <div class="quiz-question">
+        <p>1. Mass = 100g, Volume = 20cm³. Density?</p>
+        <label><input type="radio" name="dq1" value="4"> 4 g/cm³</label>
+        <label><input type="radio" name="dq1" value="5"> 5 g/cm³</label>
+        <label><input type="radio" name="dq1" value="6"> 6 g/cm³</label>
+    </div>
+
+    <div class="quiz-question">
+        <p>2. Mass = 600g, Volume = 30cm³. Density?</p>
+        <label><input type="radio" name="dq2" value="15"> 15 g/cm³</label>
+        <label><input type="radio" name="dq2" value="20"> 20 g/cm³</label>
+        <label><input type="radio" name="dq2" value="25"> 25 g/cm³</label>
+    </div>
+
+    <div class="quiz-question">
+        <p>3. Mass = 450g, Volume = 90cm³. Density?</p>
+        <label><input type="radio" name="dq3" value="4"> 4 g/cm³</label>
+        <label><input type="radio" name="dq3" value="5"> 5 g/cm³</label>
+        <label><input type="radio" name="dq3" value="6"> 6 g/cm³</label>
+    </div>
+
+    <div class="quiz-question">
+        <p>4. Mass = 2kg, Volume = 0.5m³. Density?</p>
+        <label><input type="radio" name="dq4" value="3"> 3 kg/m³</label>
+        <label><input type="radio" name="dq4" value="4"> 4 kg/m³</label>
+        <label><input type="radio" name="dq4" value="5"> 5 kg/m³</label>
+    </div>
+
+    <div class="quiz-question">
+        <p>5. Mass = 900g, Volume = 300cm³. Density?</p>
+        <label><input type="radio" name="dq5" value="2"> 2 g/cm³</label>
+        <label><input type="radio" name="dq5" value="3"> 3 g/cm³</label>
+        <label><input type="radio" name="dq5" value="4"> 4 g/cm³</label>
+    </div>
+
+    <button onclick="checkDensityQuiz()">Check Answers</button>
+
+    <p id="density-result"></p>
+
+</div>
+
+</section>
+</section>
+
+<section id="pressure" class="topic-section">
+<section>
+    <header class="formulaS">
+    <h2>PRESSURE</h2>
+    <p><strong> Pressure</strong> is a compound measure that shows how much force is applied
+    over a given area/compound measure made from dividing a unit of force by a unit of area.</p>
+     <p>Pressure is therefore defined as the force per unit area. Different units of pressure include Pascals (Pa) where one Pascal is equivalent to 1 N/m².</p>
+</header>
+<P> <strong>To calculate the pressure an object makes with a surface, we use the pressure formula </strong> </P>
+ Presssure = Force ÷ Area.
+ <div>
+    <p><strong> Formula<strong></strong><p>
+    <p><strong>Pressure = Force ÷ Area</strong></p>
+ <p>This can be written as a formua triangle.</p>
+ <title>Image in html</title>
+ <img decoding="async" width="229" height="199" src="https://thirdspacelearning.com/wp-content/uploads/2022/06/Compound-Measures-image-3.png" alt="Compound Measures image 3" class="wp-image-136283">
+ <p>There are other compound measures such as rates of pay (for example,£ per hour). We can also use compound measures when calculating the best buy (for example, grams per pence).</p>
+ </div>
+
+ <p> A larger force acting on a small area produces greater pressure.
+</p>
+<h1>Explanation</h1>
+<p> If a large force is applied over a small area, the pressure is high.</p>
+<p>
+    If the same force is spread over a larger area, the pressure is lower.
+</p>
+<p>Common units:</p>
+<ul>
+    <li>Newtons per metre squared (N/m²)</li>
+    <li>Pascals (Pa)</li>
+</ul>
+
+<hr>
+
+<div class="diagram-box">
+
+<table>
+
+<tr>
+<th>Force</th>
+<th>Area</th>
+<th>Pressure</th>
+</tr>
+
+<tr>
+<td>200 N</td>
+<td>10 m²</td>
+<td>20 N/m²</td>
+</tr>
+
+<tr>
+<td>500 N</td>
+<td>25 m²</td>
+<td>20 N/m²</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="formula-box">
+<h3>Pressure Force Area</h3>
+<p>Here we will learn about pressure, force and area, including what they are and how they are related to one another.</p>
+<p>There are also pressure force area worksheets based on Edexcel, AQA and OCR exam questions, along with further guidance on where to go next if you’re still stuck.</p>
+</div>
+    <h1>Area</h1>
+    <p><strong>Area</strong> is a measure of the size of space a flat shape takes up. The SI unit for area is the <strong>metre squared</strong> (
+m
+2
+)
+(m 
+2
+ ) although we can use other units including square centimetres 
+(
+c
+m
+2
+)
+,
+(cm 
+2
+ ), square millimetres 
+(
+m
+m
+2
+)
+(mm 
+2
+ ) or square inches 
+(
+i
+n
+2
+)
+(in 
+2
+ ) etc. </p>
+      <p>Area is inversely proportional to the pressure exerted; for a constant force, if the area in which the force is being applied to increases, the pressure exerted across that area decreases. We can therefore state that 
+A
+∝
+1
+P
+A∝ 
+P
+1
+​
+  for the area 
+A
+A and the pressure 
+P. The constant of proportionality is the force, 
+F.</p>
+<title>Image in html</title>
+<img decoding="async" width="680" height="365" src="https://thirdspacelearning.com/wp-content/uploads/2022/05/Pressure-force-area-image-1.png" alt="Pressure force area image 1" class="wp-image-126829" srcset="https://thirdspacelearning.com/wp-content/uploads/2022/05/Pressure-force-area-image-1.png 680w, https://thirdspacelearning.com/wp-content/uploads/2022/05/Pressure-force-area-image-1-300x161.png 300w" sizes="(max-width: 680px) 100vw, 680px">
+<p><strong>Note:</strong> When we consider the area of an object, we are referring to the <strong>area of contact</strong> of the object with the floor / table / ground / wall / shelf etc</p>
+   </div>
+
+<h1>force</h1>
+<p><strong>Force</strong> is the energy attributed to a movement or physical action. Force is measured in the standard unit <strong>Newton</strong> (N).</p>
+<p><strong>Newton’s Second Law of Motion</strong> states that force is equal to the mass of an object, multiplied by the acceleration, or 
+F
+=
+M
+A
+.
+F=MA. This is why weight and mass are not the same. Mass is a measure of how much matter there is in an object (usually measured in kilograms), whereas weight is the size of the pull of gravity on the object (measured in Newtons).</p>
+<p>The acceleration due to gravity on the surface of the Earth is 
+9.807
+m
+/
+s
+2
+9.807m/s 
+2
+  and so an average human with a mass of 
+62
+k
+g
+62kg would have a weight of 
+62
+×
+9.807
+=
+608
+N
+.
+62×9.807=608N.</p>
+<title>Image in html</title>
+<img decoding="async" width="414" height="388" src="https://thirdspacelearning.com/wp-content/uploads/2022/05/Pressure-force-area-image-2.png" alt="Pressure force area image 2" class="wp-image-126830" srcset="https://thirdspacelearning.com/wp-content/uploads/2022/05/Pressure-force-area-image-2.png 414w, https://thirdspacelearning.com/wp-content/uploads/2022/05/Pressure-force-area-image-2-300x281.png 300w" sizes="(max-width: 414px) 100vw, 414px">
+<p>The force acting on an object is directly proportional to the pressure applied over a constant area. The greater the pressure, the greater the force for a constant area and vice versa. We can therefore state that 
+F
+∝
+P
+F∝P for the force F and the pressure P. The constant of proportionality is the area, 
+A
+.
+A.</p>
+<p>The forces used for this topic act on an object that is in contact with the floor / table / ground / wall / shelf etc. This means that the force will be perpendicular to the surface for all questions.</p>
+<h1>Pressure</h1>
+<p><strong>Pressure</strong> is a compound measure. Pressure is defined as the force per unit area. The standard unit of pressure is Pascals 
+(
+P
+a
+)
+(Pa) where 
+1
+ 
+P
+a
+=
+1
+ 
+N
+/
+m
+2
+.
+1 Pa=1 N/m 
+2
+ . We can also measure pressure using a Bar, where 
+1
+1 Bar 
+=
+100
+,
+000
+P
+a
+=
+100
+,
+000
+ 
+N
+/
+m
+2
+.
+=100,000Pa=100,000 N/m 
+2
+ .</p>
+ <p>Imagine an elephant standing on 
+4 legs. The pressure applied to the ground is distributed over a wider area than if the elephant was standing on one leg. This is because the force remains constant (the weight of the elephant), but the area in which the force is applied has decreased, so the pressure increases. This is an example of inverse proportion.</p>
+<title>Image in html</title>
+<img decoding="async" width="760" height="282" src="https://thirdspacelearning.com/wp-content/uploads/2022/05/Pressure-force-area-image-3.png" alt="Pressure force area image 3" class="wp-image-126831" srcset="https://thirdspacelearning.com/wp-content/uploads/2022/05/Pressure-force-area-image-3.png 760w, https://thirdspacelearning.com/wp-content/uploads/2022/05/Pressure-force-area-image-3-300x111.png 300w" sizes="(max-width: 760px) 100vw, 760px">
+<p>As pressure is inversely proportional to the area, we can state that 
+P
+∝
+1
+A
+P∝1A for the pressure 
+P
+P and the area 
+A
+.
+A. The constant of proportionality is the force, 
+F
+.
+F.</p>
+<P>To calculate either the pressure, force or area of an object, we use the pressure formula,</P>
+<p>Pressure= 
+Area
+Force
+​</p>
+<p>We can circle what we are trying to find and the formula triangle tells how to calculate the unknown property.</p>
+<title>Image in html</title>
+<img decoding="async" width="1024" height="469" src="https://thirdspacelearning.com/wp-content/uploads/2022/05/Pressure-force-area-image-5-1024x469.png" alt="Pressure force area image 5" class="wp-image-126833" srcset="https://thirdspacelearning.com/wp-content/uploads/2022/05/Pressure-force-area-image-5-1024x469.png 1024w, https://thirdspacelearning.com/wp-content/uploads/2022/05/Pressure-force-area-image-5-300x137.png 300w, https://thirdspacelearning.com/wp-content/uploads/2022/05/Pressure-force-area-image-5-768x352.png 768w, https://thirdspacelearning.com/wp-content/uploads/2022/05/Pressure-force-area-image-5.png 1144w" sizes="(max-width: 1024px) 100vw, 1024px">
+<h3>Worked Examples</h3>
+
+<div class="worked-example">
+    <h4>Example 1</h4>
+    <p>Force = 100N, Area = 20m². Find pressure.</p>
+    <ol>
+        <li>Formula: Pressure = Force ÷ Area</li>
+        <li>100 ÷ 20</li>
+        <li>= 5</li>
+        <li><strong>Answer: 5 N/m²</strong></li>
+    </ol>
+</div>
+<title>Image in html</title>
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><h3 class="wp-block-heading" id="h-example-1-nbsp-calculating-pressure">Example 1: &nbsp;calculating pressure</h3>
+
+
+
+<p></p>
+
+
+
+<p>A force of <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>600</mn><mtext>&nbsp;</mtext><mi>N</mi></mrow><annotation encoding="application/x-tex"> 600 \ N </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord">600</span><span class="mspace">&nbsp;</span><span class="mord mathnormal" style="margin-right: 0.109em;">N</span></span></span></span></span> acts on an area of <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>20</mn><mtext>&nbsp;</mtext><msup><mi>m</mi><mn>2</mn></msup><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> 20 \ m^{2}. </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.8141em;"></span><span class="mord">20</span><span class="mspace">&nbsp;</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.8141em;"><span class="" style="top: -3.063em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mord">.</span></span></span></span></span> Calculate the pressure.</p>
+
+
+
+<p></p>
+
+
+
+<ol class="wp-block-list">
+<li><strong>Write the formula with the correct subject.</strong></li>
+</ol>
+
+
+
+<p></p>
+
+
+
+<p>As <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo>=</mo><mfrac><mi>F</mi><mi>A</mi></mfrac></mrow><annotation encoding="application/x-tex"> P=\frac{F}{A} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord mathnormal" style="margin-right: 0.1389em;">P</span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 1.2173em; vertical-align: -0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.8723em;"><span class="" style="top: -2.655em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">A</span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right: 0.1389em;">F</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.345em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span> and we want to calculate the pressure, we do not need to rearrange the formula so we have,</p>
+
+
+
+<p></p>
+
+
+
+<p><span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>pressure</mtext><mo>=</mo><mfrac><mtext>force</mtext><mtext>area</mtext></mfrac></mrow><annotation encoding="application/x-tex"> \text{pressure}=\frac{\text{force}}{\text{area}} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.625em; vertical-align: -0.1944em;"></span><span class="mord text"><span class="mord">pressure</span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 1.2251em; vertical-align: -0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.8801em;"><span class="" style="top: -2.655em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">area</span></span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">force</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.345em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>.</p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p><span class="is-counter">2</span><strong> Substitute known values into the formula and do the calculation.</strong></p>
+
+
+
+<p></p>
+
+
+
+<span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>Pressure</mtext><mo>=</mo><mfrac><mtext>force</mtext><mtext>area</mtext></mfrac><mo>=</mo><mfrac><mn>600</mn><mn>20</mn></mfrac><mo>=</mo><mn>30</mn></mrow><annotation encoding="application/x-tex"> \text{Pressure}=\frac{\text{force}}{\text{area}}=\frac{600}{20}=30 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord text"><span class="mord">Pressure</span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 1.2251em; vertical-align: -0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.8801em;"><span class="" style="top: -2.655em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">area</span></span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">force</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.345em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 1.1901em; vertical-align: -0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.8451em;"><span class="" style="top: -2.655em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">20</span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">600</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.345em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 0.6444em;"></span><span class="mord">30</span></span></span></span></span>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<p><span class="is-counter">3</span><strong> Write down the solution including the units.</strong></p>
+
+
+
+<p></p>
+
+
+
+<p>Pressure is <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>30</mn><mtext>&nbsp;</mtext><mi>N</mi><mi mathvariant="normal">/</mi><msup><mi>m</mi><mn>2</mn></msup><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> 30 \ N/m^{2}. </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1.0641em; vertical-align: -0.25em;"></span><span class="mord">30</span><span class="mspace">&nbsp;</span><span class="mord mathnormal" style="margin-right: 0.109em;">N</span><span class="mord">/</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.8141em;"><span class="" style="top: -3.063em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mord">.</span></span></span></span></span></p>
+
+
+
+<p></p>
+
+
+
+<p>The solution can also be written in Pascals, <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>30</mn><mtext>&nbsp;</mtext><mi>P</mi><mi>a</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> 30 \ Pa. </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord">30</span><span class="mspace">&nbsp;</span><span class="mord mathnormal" style="margin-right: 0.1389em;">P</span><span class="mord mathnormal">a</span><span class="mord">.</span></span></span></span></span></p>
+</div>
+</div>
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"><h3 class="wp-block-heading" id="h-example-2-calculating-pressure">Example 2: calculating pressure</h3>
+
+
+
+<p></p>
+
+
+
+<p>A force of <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>980</mn><mtext>&nbsp;</mtext><mi>N</mi></mrow><annotation encoding="application/x-tex"> 980 \ N </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord">980</span><span class="mspace">&nbsp;</span><span class="mord mathnormal" style="margin-right: 0.109em;">N</span></span></span></span></span> acts on an area of <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>120</mn><mtext>&nbsp;</mtext><msup><mi>m</mi><mn>2</mn></msup><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex"> 120 \ m^{2}. </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.8141em;"></span><span class="mord">120</span><span class="mspace">&nbsp;</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.8141em;"><span class="" style="top: -3.063em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mord">.</span></span></span></span></span> Calculate the pressure. Give your answer correct to <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn></mrow><annotation encoding="application/x-tex"> 2 </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6444em;"></span><span class="mord">2</span></span></span></span></span> decimal places.</p>
+
+
+
+<p></p>
+
+
+
+
+
+<p>As <span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo>=</mo><mfrac><mi>F</mi><mi>A</mi></mfrac></mrow><annotation encoding="application/x-tex"> P=\frac{F}{A} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord mathnormal" style="margin-right: 0.1389em;">P</span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 1.2173em; vertical-align: -0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.8723em;"><span class="" style="top: -2.655em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">A</span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right: 0.1389em;">F</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.345em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span> and we want to calculate the pressure, we do not need to rearrange the formula, so we have</p>
+
+
+
+<p></p>
+
+
+
+<p><br><span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>pressure</mtext><mo>=</mo><mfrac><mtext>force</mtext><mtext>area</mtext></mfrac></mrow><annotation encoding="application/x-tex"> \text{pressure}=\frac{\text{force}}{\text{area}} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.625em; vertical-align: -0.1944em;"></span><span class="mord text"><span class="mord">pressure</span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 1.2251em; vertical-align: -0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.8801em;"><span class="" style="top: -2.655em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">area</span></span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">force</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.345em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span>.</p>
+
+
+
+
+
+<p></p>
+
+
+
+
+
+<span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>Pressure</mtext><mo>=</mo><mfrac><mtext>force</mtext><mtext>area</mtext></mfrac><mo>=</mo><mfrac><mn>980</mn><mn>120</mn></mfrac><mo>=</mo><mn>8.1</mn><mover accent="true"><mn>6</mn><mo>˙</mo></mover></mrow><annotation encoding="application/x-tex"> \text{Pressure}=\frac{\text{force}}{\text{area}}=\frac{980}{120}=8.1\dot{6} </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord text"><span class="mord">Pressure</span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 1.2251em; vertical-align: -0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.8801em;"><span class="" style="top: -2.655em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">area</span></span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord text mtight"><span class="mord mtight">force</span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.345em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 1.1901em; vertical-align: -0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height: 0.8451em;"><span class="" style="top: -2.655em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">120</span></span></span></span><span class="" style="top: -3.23em;"><span class="pstrut" style="height: 3em;"></span><span class="frac-line" style="border-bottom-width: 0.04em;"></span></span><span class="" style="top: -3.394em;"><span class="pstrut" style="height: 3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">980</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height: 0.345em;"><span class=""></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 0.8813em;"></span><span class="mord">8.1</span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.8813em;"><span class="" style="top: -3em;"><span class="pstrut" style="height: 3em;"></span><span class="mord">6</span></span><span class="" style="top: -3.2134em;"><span class="pstrut" style="height: 3em;"></span><span class="accent-body" style="left: -0.1389em;"><span class="mord">˙</span></span></span></span></span></span></span></span></span></span></span>
+
+
+
+
+
+<p></p>
+
+
+
+
+
+<span class="katex-eq katex-rendered" data-katex-display="false"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>Pressure</mtext><mo>=</mo><mn>8.17</mn><mtext>&nbsp;</mtext><mi>N</mi><mi mathvariant="normal">/</mi><msup><mi>m</mi><mn>2</mn></msup><mtext>&nbsp;(2dp)&nbsp;</mtext><mo stretchy="false">(</mo><mo>=</mo><mn>8.17</mn><mi>P</mi><mi>a</mi><mtext>&nbsp;(2dp)</mtext><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex"> \text{Pressure}= 8.17 \ N/{m}^{2}\text{ (2dp)} \ (=8.17Pa\text{ (2dp)}) </annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord text"><span class="mord">Pressure</span></span><span class="mspace" style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 1.0641em; vertical-align: -0.25em;"></span><span class="mord">8.17</span><span class="mspace">&nbsp;</span><span class="mord mathnormal" style="margin-right: 0.109em;">N</span><span class="mord">/</span><span class="mord"><span class="mord"><span class="mord mathnormal">m</span></span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.8141em;"><span class="" style="top: -3.063em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span><span class="mord text"><span class="mord">&nbsp;(2dp)</span></span><span class="mspace">&nbsp;</span><span class="mopen">(</span><span class="mrel">=</span><span class="mspace" style="margin-right: 0.2778em;"></span></span><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord">8.17</span><span class="mord mathnormal" style="margin-right: 0.1389em;">P</span><span class="mord mathnormal">a</span><span class="mord text"><span class="mord">&nbsp;(2dp)</span></span><span class="mclose">)</span></span></span></span></span>
+
+
+</div>
+</div>
+
+<h3>Quick Quiz</h3>
+
+<div class="quiz-container">
+
+    <div class="quiz-question">
+        <p>1. Force = 200N, Area = 40m². Pressure?</p>
+        <label><input type="radio" name="pq1" value="4"> 4 N/m²</label>
+        <label><input type="radio" name="pq1" value="5"> 5 N/m²</label>
+        <label><input type="radio" name="pq1" value="6"> 6 N/m²</label>
+    </div>
+
+    <div class="quiz-question">
+        <p>2. Force = 600N, Area = 100m². Pressure?</p>
+        <label><input type="radio" name="pq2" value="4"> 4 N/m²</label>
+        <label><input type="radio" name="pq2" value="5"> 5 N/m²</label>
+        <label><input type="radio" name="pq2" value="6"> 6 N/m²</label>
+    </div>
+
+    <div class="quiz-question">
+        <p>3. Force = 900N, Area = 300m². Pressure?</p>
+        <label><input type="radio" name="pq3" value="2"> 2 N/m²</label>
+        <label><input type="radio" name="pq3" value="3"> 3 N/m²</label>
+        <label><input type="radio" name="pq3" value="4"> 4 N/m²</label>
+    </div>
+
+    <div class="quiz-question">
+        <p>4. Force = 500N, Area = 50m². Pressure?</p>
+        <label><input type="radio" name="pq4" value="8"> 8 N/m²</label>
+        <label><input type="radio" name="pq4" value="9"> 9 N/m²</label>
+        <label><input type="radio" name="pq4" value="10"> 10 N/m²</label>
+    </div>
+
+    <div class="quiz-question">
+        <p>5. Force = 1,200N, Area = 400m². Pressure?</p>
+        <label><input type="radio" name="pq5" value="2"> 2 N/m²</label>
+        <label><input type="radio" name="pq5" value="3"> 3 N/m²</label>
+        <label><input type="radio" name="pq5" value="4"> 4 N/m²</label>
+    </div>
+
+    <button onclick="checkPressureQuiz()">Check Answers</button>
+
+    <p id="pressure-result"></p>
+
+</div>
+</section>
+
+</section>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/57IdLR3Jq8k?si=ZK55rPBSDhBOG_Er" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<footer>
+    <p> 2026 GCSE & A Level Maths Platform</p>
+</footer>
+
+<script src="../script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathSpark</title>
+    <link rel="stylesheet" href="tyleindices.css">
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <header class="logo-container">
+        <div id="headerLogo">
+            <img id="logo_T" src="../onsiteImages/Logo-Transparent.png" alt="MathSpark Logo">
+        </div>
+        <h1 id="headerText_Apply">Statistics | Probability Distributions</title></h1>
+    </header>
+   <div class = "nav">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../lessons.html">Lessons</a></li>
+            <li><a href="../apply.html">Apply</a></li>
+            <li><a href="../employees.html">Employees</a></li>
+            <li><a href="../privacy.html">Privacy</a></li>
+        </ul>
+    </div>
+
+    <header class="hero">
+    <h1>Understanding Statistics</h1>
+    <p>In this lesson,we will explore the concenpt of Statistics in mathematics which includes:</p>
+    <p>Probability Distribution and Hypothesis Testing</p>
+  </header>
+
+  <div class="topic-nav">
+
+   <button onclick="showcontentSection('overview')">
+   Overview
+   </button>
+
+  <button onclick="showcontentSection('probability')">
+   Probability Distribution
+  </button>
+
+  <button onclick="showcontentSection('hypothesis')">
+  Hypothesis Testing
+  </button>
+
+  </div>
+
+ <!-- OVERVIEW -->
+
+<section id="overview" class="content-section">
+
+<h2>WHAT ARE STATISTICS?</h2>
+
+<p>
+<strong>Statistics</strong> is the study of collecting, organising and analysing data.
+We use statistics to understand information and make decisions based on numbers.
+Statistics often requires step-by-step calculations using addition, subtraction,
+multiplying and dividing.
+</p>
+
+<p>
+For example, when finding averages we divide, when scaling data we multiply,
+and when solving problems we follow clear steps to get the correct answer.
+</p>
+
+
+<div class="formula-box">
+
+<h3>Common Calculations in Statistics</h3>
+
+<p><strong>Mean = Total ÷ Number of values</strong></p>
+<p><strong>Probability = Favourable outcomes ÷ Total outcomes</strong></p>
+<p><strong>Ratio = Multiply or divide to make equal parts</strong></p>
+
+</div>
+
+
+<div class="diagram-box">
+
+<table>
+
+<tr>
+<th>Problem</th>
+<th>Step</th>
+<th>Answer</th>
+</tr>
+
+<tr>
+<td>Find mean of 4, 6, 10</td>
+<td>(4 + 6 + 10) ÷ 3</td>
+<td>20 ÷ 3 = 6.67</td>
+</tr>
+
+<tr>
+<td>Probability of red from 5 red, 5 blue</td>
+<td>5 ÷ 10</td>
+<td>1/2</td>
+</tr>
+
+<tr>
+<td>Share 20 into 4 parts</td>
+<td>20 ÷ 4</td>
+<td>5 each</td>
+</tr>
+
+<tr>
+<td>Scale data by 3</td>
+<td>5 × 3</td>
+<td>15</td>
+</tr>
+
+</table>
+
+</div>
+
+
+<p>
+In statistics we must follow each step carefully.
+Multiplying and dividing correctly helps us find accurate results
+when working with data, averages and probability.
+</p>
+<P>
+In A Level statistics we use data to make predictions,
+test ideas, and understand probability.
+    </p>
+
+    <h3>Explanation</h3>
+
+<ul>
+
+<li>Data can be discrete or continuous</li>
+
+<li>We calculate mean, variance and probability</li>
+
+<li>We use distributions to model data</li>
+
+<li>We use hypothesis testing to make decisions</li>
+
+</ul>
+
+<h3>Formula</h3>
+
+<div class="formula-box">
+
+Mean = Σx / n
+
+<br><br>
+
+Variance = Σ(x − mean)² / n
+
+<br><br>
+
+Standard deviation = √variance
+<h3>Worked Examples</h3>
+
+
+<p><b>Example 1</b></p>
+
+Data: 2,4,6  
+
+Mean = (2+4+6)/3  
+= 12/3  
+= 4
+
+
+<hr>
+
+
+<p><b>Example 2</b></p>
+
+Data: 1,3,5  
+
+Mean = 3  
+
+Variance
+
+= (4+0+4)/3  
+= 8/3
+
+
+<hr>
+
+
+<p><b>Example 3</b></p>
+
+Standard deviation
+
+= √(8/3)
+
+
+<hr>
+
+
+<p><b>Example 4</b></p>
+
+Total probability must equal 1
+
+
+<hr>
+
+
+<p><b>Example 5</b></p>
+
+Mean of distribution
+
+E(X) = ΣxP(x)
+
+</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bXrvHkbByik?si=ukKBnnazGnSTXs42" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</section></P>
+
+<!-- PROBABILITY DISTRIBUTION -->
+
+<section id="probability"
+class="content-section"
+style="display:none;">
+
+<h2>PROBABILITY DISTRIBUTION</h2>
+
+<!-- Definition -->
+
+<p>
+A probability distribution shows all the possible values of a random variable
+and the probability of each value occurring.
+</p>
+
+<p>
+A random variable is a variable whose value depends on chance.
+</p>
+
+
+<!-- Explanation -->
+
+<h3>Explanation</h3>
+
+<p>
+In a probability distribution:
+</p>
+
+<ul>
+
+<li>Each outcome has a probability</li>
+
+<li>All probabilities must be between 0 and 1</li>
+
+<li>The total probability must equal 1</li>
+
+</ul>
+
+<p>
+Probability distributions are used to model real life situations such as
+experiments, games, and measurements.
+</p>
+
+
+<!-- Formula -->
+
+<h3>Formula</h3>
+
+<div class="formula-box">
+
+Mean: E(X) = Σ xP(x)
+
+<br><br>
+
+Variance: Var(X) = E(X²) − [E(X)]²
+
+</div>
+
+
+
+<!-- Worked Examples -->
+
+<h3>Worked Examples</h3>
+
+
+<p><b>Example 1</b></p>
+
+X = 1,2,3  
+P = 0.2,0.5,0.3  
+
+<br>
+
+E(X) = 1×0.2 + 2×0.5 + 3×0.3  
+= 0.2 + 1 + 0.9  
+= 2.1
+
+
+<hr>
+
+
+<p><b>Example 2</b></p>
+
+E(X²)
+
+= 1²×0.2 + 2²×0.5 + 3²×0.3  
+= 0.2 + 2 + 2.7  
+= 4.9
+
+
+<hr>
+
+
+<p><b>Example 3</b></p>
+
+Var(X)
+
+= 4.9 − (2.1)²  
+= 4.9 − 4.41  
+= 0.49
+
+
+<hr>
+
+
+<p><b>Example 4</b></p>
+
+Check distribution
+
+0.3 + 0.4 + 0.3 = 1 ✔
+
+
+<hr>
+
+
+<p><b>Example 5</b></p>
+
+X = 0,1  
+P = 0.6,0.4  
+
+E(X) = 0×0.6 + 1×0.4  
+= 0.4
+
+
+
+<!-- Quiz -->
+
+<h3>Quiz</h3>
+
+<p>Enter answers</p>
+
+<p>1 <input id="q1"></p>
+<p>2 <input id="q2"></p>
+<p>3 <input id="q3"></p>
+<p>4 <input id="q4"></p>
+<p>5 <input id="q5"></p>
+<p>6 <input id="q6"></p>
+<p>7 <input id="q7"></p>
+<p>8 <input id="q8"></p>
+<p>9 <input id="q9"></p>
+<p>10 <input id="q10"></p>
+
+
+  <button onclick="checkProbQuiz()">
+
+Check Answers
+
+  </button>
+
+
+          <p id="score"></p>
+          
+<p id="quizResult"></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UnzbuqgU2LE?si=F7EUoGtS_26w3Lr3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+</section>
+
+<!-- HYPOTHESIS TESTING -->
+
+<section id="hypothesis"
+class="content-section"
+style="display:none;">
+
+<h2>HYPOTHESIS TESTING</h2>
+
+<p>
+<strong>Hypothesis testing</strong> is a statistical method used to make decisions
+using data. We start with a claim called the null hypothesis and test it using
+probability calculations. We follow clear steps and use dividing, multiplying
+and comparing values to decide if the result is significant.
+</p>
+
+<p>
+Hypothesis testing is used in mathematics, science and economics to check if
+results happen by chance or if there is real evidence.
+</p>
+
+
+<div class="formula-box">
+
+<h3>Main Rules</h3>
+
+<p><strong>H₀ = Null hypothesis (no change)</strong></p>
+<p><strong>H₁ = Alternative hypothesis (there is a change)</strong></p>
+<p><strong>Probability = favourable ÷ total</strong></p>
+<p><strong>Compare probability with significance level (0.05 or 5%)</strong></p>
+
+</div>
+
+
+<div class="diagram-box">
+
+<table>
+
+<tr>
+<th>Step</th>
+<th>Action</th>
+<th>Example</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Write hypotheses</td>
+<td>H₀: coin is fair</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Find probability</td>
+<td>P = 1 ÷ 2</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Multiply for outcomes</td>
+<td>(1/2) × (1/2) × (1/2)</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Calculate result</td>
+<td>1/8 = 0.125</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>Compare with 0.05</td>
+<td>0.125 > 0.05 → keep H₀</td>
+</tr>
+
+</table>
+
+</div>
+<p>
+Hypothesis testing is a statistical method used to make decisions
+based on data.
+</p>
+<h3>Explanation</h3>
+
+<ul>
+
+<li>H0 = null hypothesis</li>
+
+<li>H1 = alternative hypothesis</li>
+
+<li>Use probability to test H0</li>
+
+<li>If probability is small → reject H0</li>
+
+<li>If probability is large → accept H0</li>
+
+</ul>
+
+
+
+<h3>Formula</h3>
+
+<div class="formula-box">
+
+P(X = r) = nCr × p^r × (1 − p)^(n−r)
+
+</div>
+
+<p>
+We start with a null hypothesis and an alternative hypothesis,
+then use probability to decide which one is correct.
+</p>
+
+
+<p>
+In hypothesis testing we follow each step carefully.
+We multiply probabilities, divide totals, and compare results
+with the significance level to decide if the null hypothesis
+should be rejected or accepted.
+</p>
+<h3>Worked Examples</h3>
+
+
+<p><b>Example 1</b></p>
+
+n = 5  
+p = 0.5  
+r = 3  
+
+P = 5C3 × 0.5³ × 0.5²  
+
+= 10 × 0.125 × 0.25  
+
+= 0.3125
+
+
+<hr>
+
+
+<p><b>Example 2</b></p>
+
+H0 : p = 0.5  
+
+Probability = 0.04  
+
+0.04 < 0.05  
+
+Reject H0
+
+
+<hr>
+
+
+<p><b>Example 3</b></p>
+
+Probability = 0.2  
+
+0.2 > 0.05  
+
+Accept H0
+
+
+<hr>
+
+
+<p><b>Example 4</b></p>
+
+n = 4  
+p = 0.5  
+r = 2  
+
+P = 6 × 0.25 × 0.25  
+
+= 0.375
+
+
+<hr>
+
+
+<p><b>Example 5</b></p>
+
+If probability < 0.05  
+
+Reject H0
+
+<h2>Hypothesis Testing Quiz</h2>
+
+<form id="quizForm">
+
+<p>1. What does H₀ mean?</p>
+<input type="radio" name="q1" value="a"> Alternative hypothesis<br>
+<input type="radio" name="q1" value="b"> Null hypothesis<br>
+<input type="radio" name="q1" value="c"> Mean value<br>
+
+
+<p>2. What is the usual significance level?</p>
+<input type="radio" name="q2" value="a"> 0.5<br>
+<input type="radio" name="q2" value="b"> 0.05<br>
+<input type="radio" name="q2" value="c"> 5.0<br>
+
+
+<p>3. Probability is found by:</p>
+<input type="radio" name="q3" value="a"> Multiply ÷ Divide<br>
+<input type="radio" name="q3" value="b"> Favourable ÷ Total<br>
+<input type="radio" name="q3" value="c"> Add only<br>
+
+
+<p>4. If probability is smaller than 0.05 we:</p>
+<input type="radio" name="q4" value="a"> Keep H₀<br>
+<input type="radio" name="q4" value="b"> Reject H₀<br>
+<input type="radio" name="q4" value="c"> Ignore result<br>
+
+
+<p>5. Hypothesis testing is used to:</p>
+<input type="radio" name="q5" value="a"> Guess answers<br>
+<input type="radio" name="q5" value="b"> Test data using statistics<br>
+<input type="radio" name="q5" value="c"> Draw shapes<br>
+
+
+<br>
+<button type="button" onclick="checkHypothesisQuiz()">Submit Quiz</button>
+
+</form>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1g3pCE_B12E?si=mnWhpxQSNfLEOz3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+
+</section>
+
+<footer>
+    <p>© 2026 GCSE & A Level Maths Platform</p>
+</footer>
+<script src="../script.js"></script>
+
+</body>
+</html>
