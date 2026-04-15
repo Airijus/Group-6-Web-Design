@@ -126,4 +126,15 @@ body
 {
     background: linear-gradient(0deg, #9664ae, #ffffff);
 }
-
+#wordsearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+    padding-bottom: 50px;
+}
