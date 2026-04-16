@@ -12,3 +12,7 @@ PERCENTAGES:
 - solve problems involving percentage change, including percentage increase/decrease and original value problems, and simple interest including in financial mathematics
 
 https://www.bbc.co.uk/bitesize/articles/zcwmk2p#z8snsk7
+
+
+TRIGONOMETRY:
+https://revisionmaths.com/advanced-level-maths-revision/pure-maths/trigonometry/sine-and-cosine-rule
